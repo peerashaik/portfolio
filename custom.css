@@ -427,8 +427,7 @@ hr {
     overflow: hidden;
 }
 .hero-banner.contact {
-    height: 300px;
-    max-height: 300px;
+    max-height: 400px;
 }
 .hero-banner.contact .pic {
     background-image: url('images/hero-banner5.jpg');
