@@ -433,7 +433,7 @@ hr {
 .hero-banner.contact .pic {
     background-image: url('images/hero-banner5.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
