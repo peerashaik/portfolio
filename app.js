@@ -4,7 +4,7 @@ $(document).ready(function() {
         $('.sticky-top').toggleClass('mobileNav');
     });
 
-    //copyright year change
+    //copyright year
     var date = new Date();
     var year = date.getFullYear();
     document.getElementById('date').innerHTML = year;
