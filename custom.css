@@ -426,6 +426,16 @@ hr {
     max-height: 600px;
     overflow: hidden;
 }
+.hero-banner.contact {
+    max-height: 300px;
+}
+.hero-banner.contact .pic {
+    background-image: url('images/hero-banner5.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 300px;
+    width: 100%;
+}
 .hero-banner .overlay,
 .hero-banner .headings {
     position: absolute;
