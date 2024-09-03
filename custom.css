@@ -427,6 +427,7 @@ hr {
     overflow: hidden;
 }
 .hero-banner.contact {
+    min-height: 400px;
     max-height: 400px;
 }
 .hero-banner.contact .pic {
