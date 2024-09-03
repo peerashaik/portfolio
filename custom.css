@@ -704,6 +704,20 @@ hr {
     width: auto;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  display: inline-block;
+}
+.back-to-top i {
+  color: var(--pink);
+  font-size: 3rem;
+}
+.back-to-top:hover i {
+  color: var(--black);
+}
+
 @media (min-width: 768px) {
     .px-10 {
         padding: 0 10%;
