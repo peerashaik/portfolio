@@ -427,13 +427,14 @@ hr {
     overflow: hidden;
 }
 .hero-banner.contact {
+    height: 300px;
     max-height: 300px;
 }
 .hero-banner.contact .pic {
     background-image: url('images/hero-banner5.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    max-height: 300px;
+    height: 100%;
     width: 100%;
 }
 .hero-banner .overlay,
