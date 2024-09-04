@@ -230,7 +230,8 @@ hr {
     margin: 1px 10px 0 0;
 }
 
-.navbar-dark .navbar-brand:is(:hover i, :focus i) {
+.navbar-dark .navbar-brand:hover i,
+.navbar-dark .navbar-brand:focus i {
     border: 10px solid var(--black);
     outline-color: var(--pink);
     transition: all 0.35s ease;
@@ -727,7 +728,8 @@ hr {
     cursor: zoom-in;
 }
 
-.my-work-list .img-wrapper:is(:hover i, :focus i) {
+.my-work-list .img-wrapper:hover i,
+.my-work-list .img-wrapper:focus i {
     border: 50px solid var(--black);
     outline-color: var(--pink);
     transition: all 0.35s ease;
@@ -950,7 +952,8 @@ hr {
         outline-width: 100px;
     }
 
-    .my-work-list .img-wrapper:is(:hover i, :focus i) {
+    .my-work-list .img-wrapper:hover i,
+    .my-work-list .img-wrapper:focus i {
         border: 100px solid var(--black);
     }
 
