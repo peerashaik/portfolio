@@ -560,21 +560,21 @@ hr {
 }
 
 .hero-banner h2 {
-    font-size: 38px;
+    font-size: 2.375rem;
 }
 
 .hero-banner h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     opacity: .7;
 }
 
 .hero-banner h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
     opacity: .4;
 }
 
 .hero-banner h5 {
-    font-size: 18px;
+    font-size: 1..125rem;
     opacity: .25;
 }
 
@@ -635,7 +635,7 @@ hr {
     color: var(--black);
     cursor: default;
     display: inline-block;
-    font-size: 36px;
+    font-size: 2.25rem;
     padding: 20px;
     height: 76px;
     width: 76px;
@@ -676,7 +676,7 @@ hr {
 
 .key-skills li i {
     margin-right: 10px;
-    font-size: 15px;
+    font-size: .935rem;
 }
 
 .key-skills .pic {
@@ -807,7 +807,7 @@ hr {
 
 .employer-list li i {
     margin-right: 12px;
-    font-size: 10px;
+    font-size: .625rem;
 }
 
 .employer-list h3 span {
@@ -904,19 +904,19 @@ hr {
     }
 
     .hero-banner h2 {
-        font-size: 80px;
+        font-size: 5rem;
     }
 
     .hero-banner h3 {
-        font-size: 65px;
+        font-size: 4.065px;
     }
 
     .hero-banner h4 {
-        font-size: 45px;
+        font-size: 2.815rem;
     }
 
     .hero-banner h5 {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .card {
