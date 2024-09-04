@@ -10,11 +10,4 @@ $(document).ready(function() {
     let date = new Date();
     let year = date.getFullYear();
     document.getElementById('date').innerHTML = year;
-
-    $(".view-works").on("click" ,function(){
-        scrolled = scrolled - 300;
-        $(".my-work-list").animate({
-            scrollTop:  scrolled
-        });
-    });
 })
