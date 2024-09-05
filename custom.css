@@ -804,7 +804,7 @@ hr {
     /*    background-color: var(--grey-light2);*/
     border: 1px solid var(--grey-light);
     margin: 50px 0;
-    padding: 50px;
+    padding: 20px;
 }
 
 .employer-list li i {
@@ -956,7 +956,9 @@ hr {
     .my-work-list .img-wrapper:focus i {
         border: 100px solid var(--black);
     }
-
+    .employer-list li {
+        padding: 50px;
+    }
     .employer-list h3 span {
         display: inline-block;
         float: right;
