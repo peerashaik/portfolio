@@ -192,6 +192,7 @@ hr {
     background-color: var(--water);
     display: inline-block;
     border-radius: 50%;
+    line-height: 20px;
     padding: 15px;
     position: absolute;
     top: 30px;
