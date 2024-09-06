@@ -11,12 +11,17 @@ $(document).ready(function() {
     let year = date.getFullYear();
     document.getElementById('date').innerHTML = year;
 
-    function userCounter() {
-        var counter = document.getElementById("user-count");
-        var count = 0;
-        count = parseInt(counter.innerHTML);
-        count = count + 1;
-        counter.innerHTML = count;
+    var counterContainer = document.querySelector(".user-count");
+    var visitCount = localStorage.getItem("page_view");
+
+    // Check if page_view entry is present
+    if (visitCount) {
+      visitCount = Number(visitCount) + 1;
+      localStorage.setItem("page_view", visitCount);
+    } else {
+      visitCount = 1;
+      localStorage.setItem("page_view", 1);
     }
-    window.onload = userCounter;
+    counterContainer.innerHTML = visitCount;
+
 })
