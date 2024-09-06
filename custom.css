@@ -13,7 +13,7 @@
     --red-light: #ee4d4d;
     --yellow: #f1d71a;
     --water: #40cea7;
-    --pink: #ffb2c5;
+    --pink: #ffb2c5;   ffe6fa
     --pink-dark: #f02c64;
     --pink-dark2: #f5d5dd;
     --pink-light: #fef0f4;
@@ -185,6 +185,17 @@ hr {
 /*Header*/
 .header {
     padding: 40px;
+    position: relative;
+}
+
+.user-count {
+    background-color: var(--water);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 
 .header h2 {
