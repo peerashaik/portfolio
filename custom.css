@@ -216,6 +216,10 @@ hr {
     padding: 12px 0;
 }
 
+.navbar-dark.sticky-top {
+    top: -1px;
+}
+
 .navbar-dark .navbar-brand {
     color: var(--black);
     font-weight: 500;
