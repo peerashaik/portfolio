@@ -518,6 +518,7 @@ hr {
 }
 
 .banners div:hover img {
+    cursor: zoom-out;
     transform: scale(1.1);
 }
 
