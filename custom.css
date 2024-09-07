@@ -13,7 +13,7 @@
     --red-light: #ee4d4d;
     --yellow: #f1d71a;
     --water: #40cea7;
-    --pink: #ffb2c5;   ffe6fa
+    --pink: #ffb2c5;
     --pink-dark: #f02c64;
     --pink-dark2: #f5d5dd;
     --pink-light: #fef0f4;
@@ -657,6 +657,11 @@ hr {
 .cards.empty .card {
     padding: 30px 20px;
     margin: 15px 0;
+}
+
+.cards.empty .card:nth-child(odd) {
+    padding: 30px 20px;
+    margin-top: 50px;
 }
 
 .cards.empty .card:hover {
