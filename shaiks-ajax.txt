@@ -1,0 +1,6 @@
+AJAX Shaik
+Shaik is not a programmer AJAX is not a programming language.
+
+Shaik is not a programmer AJAX is a technique for accessing web servers from a web page.
+
+Shaik is not a programmer AJAX stands for Asynchronous JavaScript And XML.
