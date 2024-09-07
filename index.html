@@ -66,6 +66,18 @@
   </div>
 </div>
 
+<script type="text/javascript">
+      function loadDoc() {
+        alert(123);
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+            document.getElementById("ajax-load").innerHTML = this.responseText;
+        }
+        xhttp.open("GET", "https://peerashaik.github.io/ui/shaiks-ajax.txt");
+        xhttp.send();
+    }
+</script>
+
 <div class="banners mt-5">
   <div>
       <img src="images/banner-ui.jpg" loading="lazy" alt="User Interface" />
