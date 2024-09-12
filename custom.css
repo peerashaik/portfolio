@@ -842,11 +842,26 @@ hr {
     border: 1px solid var(--grey-light);
     margin: 50px 0;
     padding: 20px;
+    position: relative;
 }
 
 .employer-list li i {
     margin-right: 12px;
     font-size: .625rem;
+}
+
+.employer-list li i.num {
+    margin: 0;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 15px;
+    left: inherit;
+    right: 15px;
+    opacity: 0.3;
+}
+
+.employer-list h3 {
+    margin: 0 30px 0 0;
 }
 
 .employer-list h3 span {
@@ -999,6 +1014,13 @@ hr {
     }
     .employer-list li {
         padding: 50px;
+    }
+    .employer-list li i.num {
+        font-size: 4rem;
+        left: calc(50% - 32px);
+    }
+    .employer-list h3 {
+        margin: 15px 0 0;
     }
     .employer-list h3 span {
         display: inline-block;
