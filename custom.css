@@ -484,6 +484,27 @@ hr {
     margin: 0;
 }
 
+.content-heading {
+    position: relative;
+}
+.content-heading:before {
+    display: none;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: -moz-radial-gradient(center, ellipse cover, #fff 25%, #cecece 100%);
+    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(25%, #fff), color-stop(100%, #cecece));
+    background: -webkit-radial-gradient(center, ellipse cover, #fff 25%, #cecece 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #fff 25%, #cecece 100%);
+    background: radial-gradient(ellipse at center, #fff 25%, #cecece 100%);
+    position: absolute;
+    top: 54%;
+}
+.content-heading strong {
+    position: relative;
+    z-index: 99;
+}
+
 /*margins, paddings*/
 .my-10 {
     margin: 100px auto;
@@ -895,6 +916,10 @@ hr {
 
     .container {
         padding: 0;
+    }
+
+    .content-heading:before {
+        display: block;
     }
 
     .footer .nav {
