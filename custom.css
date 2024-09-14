@@ -500,7 +500,8 @@ hr {
     position: absolute;
     top: 54%;
 }
-.content-heading strong {
+.content-heading strong,
+.content-heading i {
     position: relative;
     z-index: 99;
 }
