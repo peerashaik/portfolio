@@ -27,6 +27,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     margin: 0;
+    overflow-X:hidden;
 }
 
 h2 {
@@ -1061,4 +1062,66 @@ hr {
         float: right;
         font-size: .725rem;
     }
+}
+
+
+.limitF{
+  position: fixed;
+  top: 20vh;
+  height: 50vh;
+  width: 0;
+  border-top: 1px solid var(--grey);
+  opacity: .6;
+}
+.limitH{
+  position: fixed;
+  top: 40vh;
+  width: 10%;
+  border-top: 1px solid var(--red);
+    -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 8s;
+  opacity: 0;
+}
+.limitQ{
+  position: fixed;
+  top: 60vh;
+  height: 50vh;
+  width: 0;
+  border-bottom: 6px solid var(--grey);
+  opacity: .3;
+}
+
+.full {
+    width: 100%;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 2s;
+}
+.limitF.full {
+    border-top: 1px solid var(--red);
+    opacity: .8;
+    transition: width 4s;
+}
+.limitH.full {
+    border-top: 1px solid var(--yellow);
+    opacity: .3;
+    transition: width 9s;
+}
+.limitQ.full {
+    border-top: 1px solid var(--blue);
+    opacity: .6;
+    transition: width 7s;
+}
+
+@-webkit-keyframes run {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;    
+  }
 }

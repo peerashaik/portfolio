@@ -11,4 +11,19 @@ $(document).ready(function() {
         $(this).toggleClass('open');
         $('.sticky-top').toggleClass('mobileNav');
     });
+
+    $(window).scroll(function() {
+        var x = $(window).scrollTop();
+        if (x >= 200) {
+            $('.limitF').addClass('full');
+            $('.limitH').addClass('full');
+            $('.limitQ').addClass('full');
+        } else {
+            $('.limitF').removeClass('full');
+            $('.limitH').removeClass('full');
+            $('.limitQ').removeClass('full');
+        }
+    });
+
+
 });
