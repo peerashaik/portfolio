@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
         var x = $(window).scrollTop();
-        if (x >= 200) {
+        if (x >= 200 && x <= 800) {
             $('#lines > div').addClass('full');
         } else {
             $('#lines > div').removeClass('full');
