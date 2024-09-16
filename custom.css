@@ -1088,7 +1088,7 @@ hr {
   top: 60vh;
   height: 50vh;
   width: 0;
-  border-bottom: 6px solid var(--grey);
+  border-bottom: 1px solid var(--grey);
   opacity: .3;
 }
 
@@ -1099,19 +1099,22 @@ hr {
     -webkit-animation-duration: 2s;
 }
 .limitF.full {
-    border-top: 1px solid var(--red);
+    border-top: 2px solid var(--red);
     opacity: .8;
     transition: width 4s;
 }
 .limitH.full {
-    border-top: 1px solid var(--yellow);
+    border-top: 4px solid var(--yellow);
     opacity: .3;
     transition: width 9s;
 }
 .limitQ.full {
-    border-top: 1px solid var(--blue);
+    border-top: 6px solid var(--blue);
     opacity: .6;
     transition: width 7s;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run2;
+    -webkit-animation-duration: 2s;
 }
 
 @-webkit-keyframes run {
@@ -1123,5 +1126,17 @@ hr {
   }
   100% {
     left: 0;    
+  }
+}
+
+@-webkit-keyframes run2 {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: 100%;
+  }
+  100% {
+    right: 0;    
   }
 }

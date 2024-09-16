@@ -15,13 +15,9 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var x = $(window).scrollTop();
         if (x >= 200) {
-            $('.limitF').addClass('full');
-            $('.limitH').addClass('full');
-            $('.limitQ').addClass('full');
+            $('#lines > div').addClass('full');
         } else {
-            $('.limitF').removeClass('full');
-            $('.limitH').removeClass('full');
-            $('.limitQ').removeClass('full');
+            $('#lines > div').removeClass('full');
         }
     });
 
