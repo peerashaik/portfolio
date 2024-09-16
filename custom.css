@@ -473,6 +473,12 @@ hr {
     font-size: .825rem;
 }
 
+
+.link {
+    position: relative;
+    padding: 4px 0;
+}
+
 .link:is(:hover, :focus) {
     color: var(--pink-dark);
     text-decoration: none;
