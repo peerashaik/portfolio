@@ -588,6 +588,7 @@ hr {
 .hero-banner {
     position: relative;
     max-height: 600px;
+    min-height: 300px;
     overflow: hidden;
 }
 
@@ -993,6 +994,10 @@ hr {
 
     .banners div {
         width: 33.3%;
+    }
+
+    .hero-banner {
+        min-height: 600px;
     }
 
     .hero-banner h2,
