@@ -7,7 +7,7 @@
 <meta name="Description" content="User Interface Designer, Web Designer, Web Developer,  eCommerce Frontend Developer"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" />
-<link href="custom.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
@@ -105,7 +105,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
           </address>
         </div>
 
-        <form action="self" method="post">
+        <form method="post" id="userForm" name="userForm">
           <div class="cotent" style="background-color: grey">
             <h2>Subscribe to my Newsletter</h2>
             <p>Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem ipsum text about why you should subscribe to our newsletter blabla.</p>
@@ -114,7 +114,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
             <label>
               <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
             </label>
-            <input type="submit" class="btn btn-black" value="Subscribe">
+            <button type="submit" class="btn btn-black green" name="submit">Subscribe</button>
           </div>
         </form>
       </div>
