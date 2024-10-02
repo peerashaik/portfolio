@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="User Interface Designer, Web Designer,  eCommerce Frontend Developer"/>
+<meta name="Description" content="User Interface Designer, Web Designer, Web Developer,  eCommerce Frontend Developer"/>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" />
 <link href="custom.css" rel="stylesheet" />
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"></script>
-<script src="app.js"></script>
+<script src="js/script.js"></script>
 <?php 
 $to = "peerashaik786@gmail.com"; // this is your Email address
 $from = $_POST['email']; // this is the sender's Email address
@@ -38,7 +38,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
   <div class="container">
     <div class="row d-block">
       <img class="mb-2" src="images/logo.png" loading="lazy" alt="Shaik Peera" />
-      <p class="small m-0"> TECHY <span>|</span> DESIGN <span>|</span> DEVELOP <span>|</span> MENTOR</p>
+      <p class="small m-0">TECHY <span>|</span> DESIGN <span>|</span> DEVELOP <span>|</span> MENTOR</p>
     </div>
   </div>
 </div>
