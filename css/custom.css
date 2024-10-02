@@ -9,14 +9,17 @@
     --grey-light2: #e2e2e2;
     --blue: #2cd2f0;
     --light-blue: #eaeff5;
+    --navy-blue: #4668ed;
     --red: #f02d2d;
     --red-light: #ee4d4d;
     --yellow: #f1d71a;
     --water: #40cea7;
+    --green: #0ed08a;
     --pink: #ffb2c5;
     --pink-dark: #f02c64;
     --pink-dark2: #f5d5dd;
     --pink-light: #fef0f4;
+    --purple: #cb6be6;
 }
 
 body {
@@ -151,19 +154,31 @@ hr {
     color: var(--pink-dark);
 }
 
-.color-red {
+.text-black {
+    color: var(--black);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.text-red {
     color: var(--red);
 }
 
-.color-blue {
+.text-blue {
     color: var(--blue);
 }
 
-.color-yellow {
+.text-yellow {
     color: var(--yellow);
 }
 
-.color-water {
+.text-water {
     color: var(--water);
 }
 
@@ -171,14 +186,22 @@ hr {
     overflow: hidden;
     position: relative;
 }
+
 .color-bg.red {
     background-color: var(--red-light);
 }
-
+.color-bg.green {
+    background-color: var(--green);
+}
+.color-bg.purple {
+    background-color: var(--purple);
+}
 .color-bg.blue {
     background-color: var(--blue);
 }
-
+.color-bg.navy-blue {
+    background-color: var(--navy-blue);
+}
 .color-bg.yellow {
     background-color: var(--yellow);
 }
@@ -571,18 +594,30 @@ hr {
     margin: 0;
 }
 
-.banners div {
+.banners .color-bg {
+    display: flex;
     flex-grow: 1;
-    padding: 0;
-    width: 100%;
-}
-
-.banners div img {
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 30px;
     width: 100%;
     transition: transform 0.5s;
 }
 
-.banners div:hover img {
+.banners h2 {
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.banners h4 {
+    color: var(--white);
+    font-size: 20px;
+    margin: 0;
+}
+
+.banners div:hover {
     cursor: zoom-out;
     transform: scale(1.1);
 }
@@ -601,7 +636,7 @@ hr {
 }
 
 .hero-banner.contact .pic {
-    background-image: url('images/hero-banner5.jpg');
+    background-image: url('../images/hero-banner5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -995,7 +1030,7 @@ hr {
         flex-wrap: inherit;
     }
 
-    .banners div {
+    .banners .color-bg {
         width: 33.3%;
     }
 
