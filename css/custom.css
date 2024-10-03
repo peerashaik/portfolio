@@ -416,6 +416,15 @@ hr {
     z-index: 999;
 }
 
+.navbar-toggler:after {
+    display: inline-block;
+    content: '';
+    position: fixed;
+    margin-top: -14px;
+    width: 40px;
+    height: 30px;
+}
+
 .navbar.mobileNav {
     display: flex;
     background: var(--black);
@@ -425,6 +434,7 @@ hr {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 9999;
     animation: .6s slide-right;
 }
 
@@ -482,17 +492,17 @@ hr {
 
 .menu-btn:checked~.navbar-toggler .navicon {
     background: transparent;
-    width: 26px;
+    width: 32px;
 }
 
 .menu-btn:checked~.navbar-toggler .navicon:before {
     transform: rotate(-45deg);
-    width: 26px;
+    width: 32px;
 }
 
 .menu-btn:checked~.navbar-toggler .navicon:after {
     transform: rotate(45deg);
-    width: 28px;
+    width: 32px;
 }
 
 .menu-btn:checked~.navbar-toggler:not(.steps) .navicon:before,
@@ -1035,10 +1045,10 @@ hr {
 }
 
 .back-to-top {
+    display: none;
     position: fixed;
     bottom: 40px;
     right: 20px;
-    display: inline-block;
 }
 
 .back-to-top i {
