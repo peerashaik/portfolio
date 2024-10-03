@@ -53,7 +53,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
                 <a href="/ui/skills.html" class="nav-link">SKILLS</a>
             </li>
             <li class="nav-item">
-                <a href="/ui/experience.html" class="nav-link">PATRONS</a>
+                <a href="/ui/patrons.html" class="nav-link">PATRONS</a>
             </li>
             <li class="nav-item">
                 <a href="/ui/works.html" class="nav-link">WORKS</a>
@@ -124,7 +124,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
     <ul class="nav">
       <li class="nav-item"><a href="/ui/about.html" class="nav-link link">About</a></li>
       <li class="nav-item"><a href="/ui/skills.html" class="nav-link link">Skills</a></li>
-      <li class="nav-item"><a href="/ui/experience.html" class="nav-link link">Patrons</a></li>
+      <li class="nav-item"><a href="/ui/patrons.html" class="nav-link link">Patrons</a></li>
       <li class="nav-item"><a href="/ui/works.html" class="nav-link link">Works</a></li>
       <li class="nav-item"><a href="/ui/contact.html" class="nav-link link">Contact</a></li>
     </ul>

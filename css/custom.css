@@ -978,7 +978,6 @@ hr {
 }
 
 .employer-list li {
-    /*    background-color: var(--grey-light2);*/
     border: 1px solid var(--grey-light);
     margin: 50px 0;
     padding: 20px;
@@ -986,17 +985,21 @@ hr {
 }
 
 .employer-list li i {
+
     margin-right: 12px;
     font-size: .625rem;
 }
 
 .employer-list li i.num {
-    margin: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(168,168,168,1) 100%);
+    border-radius: 6px;
     font-size: 2.5rem;
+    margin: 0;
     position: absolute;
     top: 15px;
     left: inherit;
     right: 15px;
+    width: 64px;
     opacity: 0.3;
 }
 
