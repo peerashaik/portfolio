@@ -402,8 +402,7 @@ hr {
 .navbar {
     padding: 0;
     position: fixed;
-    top: 50px;
-    right: 40px;
+    right: 0;
     z-index: 999;
 }
 
@@ -411,13 +410,10 @@ hr {
     cursor: pointer;
     padding: 0;
     border: 0;
-}
-
-.navbar-toggler.open {
-    padding: 0;
     position: fixed;
     top: 50px;
     right: 40px;
+    z-index: 999;
 }
 
 .navbar.mobileNav {
@@ -425,10 +421,11 @@ hr {
     background: var(--black);
     height: 100vh;
     width: 100vw;
+    padding: 0;
     position: fixed;
     top: 0;
     right: 0;
-    transition: max-height .2s ease-out;
+    animation: .6s slide-right;
 }
 
 .navbar.mobileNav .collapse {
@@ -436,9 +433,9 @@ hr {
     justify-content: center;
 }
 
-.mobileNav .navbar-nav .nav-item {
+/*.mobileNav .navbar-nav .nav-item {
     text-align: center;
-}
+}*/
 
 .navbar-toggler .navicon {
     background: var(--white);
@@ -1170,6 +1167,17 @@ hr {
         bottom: 70px;
         right: 50px;
     }
+}
+
+@keyframes slide-right {
+  from {
+    right: -500px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
 }
 
 
