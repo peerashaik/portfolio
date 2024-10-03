@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
     --black: #000000;
@@ -22,38 +23,87 @@
     --purple: #cb6be6;
 }
 
+@font-face {
+    font-family: 'heliosextregular';
+    src: url('../fonts/heliosext.woff2') format('woff2'),
+         url('../fonts/heliosext.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heliosextbold';
+    src: url('../fonts/heliosext-bold.woff2') format('woff2'),
+         url('../fonts/heliosext-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    color: var(--grey-dark);
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 1.1rem;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
+    color: var(--white);
+    background-color: var(--black);
+    font-family: 'heliosextregular';
+    font-size: 16px;
+    line-height: 26px;
     margin: 0;
-    overflow-X:hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--white);
+    font-family: 'heliosextbold';
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 42px;
 }
 
 h2 {
-    font-size: 2.225rem;
-    font-weight: 500;
-    letter-spacing: -1px;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 p {
     margin: 0 0 20px;
 }
 
+strong {
+    font-family: 'heliosextbold';
+}
+
+small,
+.small {
+    font-size: 12px;
+}
+
 img {
     width: 100%;
 }
 
+
 a {
-    color: var(--black);
+    color: var(--pink-dark);
     text-decoration: none;
 }
 
 a:is(:hover, :focus) {
-    color: var(--pink-dark);
+    color: var(--grey-dark);
     text-decoration: underline;
 }
 
@@ -84,15 +134,15 @@ hr {
 }
 
 .btn-primary {
-    background-color: var(--pink);
-    border-color: var(--pink);
-    color: var(--black);
+    background-color: var(--pink-dark);
+    border-color: var(--pink-dark);
+    color: var(--white);
 }
 
 .btn-primary:is(:hover, :focus) {
-    background-color: var(--black);
-    border-color: var(--black);
-    color: var(--white);
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--black);
 }
 
 .btn-black {
@@ -106,6 +156,7 @@ hr {
     color: var(--black);
 }
 
+.btn-primary:after,
 .btn-black:after {
     position: absolute;
     content: "";
@@ -142,6 +193,7 @@ hr {
     transition: all .9s ease;
 }
 
+.btn-primary:hover:after,
 .btn-black:hover:after,
 .btn-outline:hover:after {
     top: auto;
@@ -210,26 +262,25 @@ hr {
     background-color: var(--water);
 }
 .slant {
-  width:100%;
-  height: 50px;
-  transform:rotate(1.2deg);
+  width: 104%;
+  height: 75px;
+  transform:rotate(1.8deg);
   position: absolute;
-  left:0;
+  left: -5px;
   right: 0;
+  bottom: -25px;
   z-index: 0;
 }
 .slant.light-blue {
     background: var(--light-blue);
-    bottom: -10%;
-    transform:rotate(-1.2deg);
+    transform:rotate(-1.8deg);
 }
-.slant.white {
-    background: var(--white);
-    top: -10%;
+.slant.black {
+    background: var(--black);
 }
-.slant.white2 {
-    background: var(--white);
-    bottom: -10%;
+.slant.black.top {
+    background: var(--black);
+    top: -25px;
 }
 
 /*margins, paddings*/
@@ -255,34 +306,20 @@ hr {
     position: relative;
 }
 
-.header h2 {
-    color: var(--pink-dark);
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin: 0;
+.title {
+  font-family: "Pacifico", cursive;
+  font-size: 55px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 50px;
+  margin: 0 0 10px;
 }
 
-.header img {
-    width: 200px;
-}
-
-.header p span {
-    color: var(--grey);
-    display: inline-block;
-    font-size: .75rem;
-    margin: 0 6px;
-}
-
-.header .small {
-    font-size: .85rem;
+.header a {
+    text-decoration: none;
 }
 
 /*Nav Bar*/
-.navbar-dark {
-    background-color: var(--grey-light2);
-    padding: 12px 0;
-}
-
 .navbar-dark .navbar-brand {
     color: var(--black);
     font-weight: 500;
@@ -310,7 +347,7 @@ hr {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: var(--black);
+    color: var(--white);
     display: inline-block;
     margin: 0 20px;
     padding: 0 6px;
@@ -318,7 +355,7 @@ hr {
 }
 
 .navbar-dark .navbar-nav .nav-link:is(:hover, :focus) {
-    color: var(--white);
+    color: var(--grey-dark);
     text-decoration: none;
 }
 
@@ -358,9 +395,17 @@ hr {
     opacity: 1;
 }
 
+.sticky-top {
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+    width: 100%;
+}
+
 /* Mobile Menu */
 .mobileNav {
     display: block;
+    background: var(--black);
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -387,7 +432,7 @@ hr {
 }
 
 .navbar-toggler .navicon {
-    background: var(--black);
+    background: var(--white);
     display: block;
     height: 3px;
     position: relative;
@@ -398,7 +443,7 @@ hr {
 .navbar-toggler .navicon:before,
 .navbar-toggler .navicon:after {
     content: '';
-    background: var(--black);
+    background: var(--white);
     display: block;
     height: 100%;
     position: absolute;
@@ -446,11 +491,12 @@ hr {
 
 /*Footer*/
 .footer {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 222, 230, 1));
+    border-top: 1px solid var(--grey-dark);
+    margin-top: 50px;
 }
 
 .footer .container {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .footer .nav,
@@ -496,13 +542,15 @@ hr {
 }
 
 .copyright {
+    color: var(--grey-dark);
     font-size: .825rem;
 }
 
-
 .link {
+    display: inline-block;
+    line-height: 14px;
+    padding: 0 0 4px;
     position: relative;
-    padding: 4px 0;
 }
 
 .link:is(:hover, :focus) {
@@ -512,39 +560,28 @@ hr {
 
 .link:before,
 .link:after {
+    content: "";
+    background-color: var(--pink-dark);
+    display: block;
+    -webkit-transition: all 0.55s ease;
+    transition: all 0.55s ease;
     position: absolute;
-    -webkit-transition: all 0.35s ease;
-    transition: all 0.35s ease;
+    bottom: -5px;
+    width: 0;
+    height: 1px;
 }
 
 .link:before {
-    content: "";
-    background-color: var(--pink);
-    bottom: 0;
-    display: block;
-    height: 2px;
-    width: 0%;
+    left: 50%;
 }
 
 .link:after {
-    color: var(--white);
-    content: attr(data-hover);
-    left: 0;
-    top: 0;
-    position: absolute;
-    padding: 0.5em 0;
-    overflow: hidden;
-    white-space: nowrap;
-    max-width: 0%;
+    right: 50%;
 }
 
-.link:hover:before {
-    opacity: 1;
-    width: 100%;
-}
-
+.link:hover:before,
 .link:hover:after {
-    max-width: 100%;
+    width: 50%;
 }
 
 /*Content Containers*/
@@ -568,11 +605,11 @@ hr {
     content: '';
     height: 1px;
     width: 100%;
-    background: -moz-radial-gradient(center, ellipse cover, #fff 25%, #cecece 100%);
-    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(25%, #fff), color-stop(100%, #cecece));
-    background: -webkit-radial-gradient(center, ellipse cover, #fff 25%, #cecece 100%);
-    background: -ms-radial-gradient(center, ellipse cover, #fff 25%, #cecece 100%);
-    background: radial-gradient(ellipse at center, #fff 25%, #cecece 100%);
+    background: -moz-radial-gradient(center, ellipse cover, #000 25%, #cecece 100%);
+    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(25%, #000), color-stop(100%, #cecece));
+    background: -webkit-radial-gradient(center, ellipse cover, #000 25%, #cecece 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #000 25%, #cecece 100%);
+    background: radial-gradient(ellipse at center, #000 25%, #cecece 100%);
     position: absolute;
     top: 54%;
 }
@@ -613,7 +650,7 @@ hr {
 
 .banners h4 {
     color: var(--white);
-    font-size: 20px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -626,7 +663,7 @@ hr {
 .hero-banner {
     position: relative;
     max-height: 600px;
-    min-height: 300px;
+    min-height: 285px;
     overflow: hidden;
 }
 
@@ -871,6 +908,7 @@ hr {
 }
 
 .my-work-list .item h2 a:hover {
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -888,8 +926,8 @@ hr {
 .my-work-list .item h2 a:before {
     right: -15px;
     top: 2px;
-    border-left: 3px solid var(--black);
-    border-top: 3px solid var(--black);
+    border-left: 3px solid var(--pink-dark);
+    border-top: 3px solid var(--pink-dark);
     -webkit-transform: translate(100%, 50%);
     transform: translate(100%, 50%);
 }
@@ -897,8 +935,8 @@ hr {
 .my-work-list .item h2 a:after {
     right: -20px;
     bottom: 2px;
-    border-right: 3px solid var(--black);
-    border-bottom: 3px solid var(--black);
+    border-right: 3px solid var(--pink-dark);
+    border-bottom: 3px solid var(--pink-dark);
     -webkit-transform: translate(-100%, -50%);
     transform: translate(-100%, -50%);
 }
@@ -992,12 +1030,12 @@ hr {
 }
 
 .back-to-top i {
-    color: var(--pink);
+    color: var(--white);
     font-size: 3rem;
 }
 
 .back-to-top:hover i {
-    color: var(--black);
+    color: var(--pink-dark);
 }
 
 @media (min-width: 768px) {

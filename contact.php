@@ -38,7 +38,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
   <div class="container">
     <div class="row d-block">
       <img class="mb-2" src="images/logo.png" loading="lazy" alt="Shaik Peera" />
-      <p class="small m-0">TECHY <span>|</span> DESIGN <span>|</span> DEVELOP <span>|</span> MENTOR</p>
+      <p class="small m-0">DESIGN <span>|</span> DEVELOP <span>|</span> TECHY <span>|</span> MENTOR</p>
     </div>
   </div>
 </div>
@@ -128,7 +128,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
 
 <!-- Footer -->
 <footer class="footer mt-5">
-  <div class="container border-bottom clearfix">
+  <div class="container clearfix">
     <ul class="nav">
       <li class="nav-item"><a href="/ui" class="nav-link">Home</a></li>
       <li class="nav-item"><a href="/ui/about.html" class="nav-link">About</a></li>
