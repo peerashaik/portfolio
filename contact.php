@@ -35,24 +35,17 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
 
 <!-- Header Section -->
 <div class="header text-center">
-  <div class="container">
-    <div class="row d-block">
-      <img class="mb-2" src="images/logo.png" loading="lazy" alt="Shaik Peera" />
+      <a class="link" href="/ui"><h1 class="title">Shaik Peera</h1></a>
       <p class="small m-0">DESIGN <span>|</span> DEVELOP <span>|</span> TECHY <span>|</span> MENTOR</p>
-    </div>
-  </div>
 </div>
 
 <!-- Navbar Section -->
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container">
-      <a href="/ui" class="navbar-brand"><i class="logo"></i></a>
-
+<nav class="navbar">
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="navbar-toggler" for="menu-btn"><span class="navicon"></span></label>
 
       <div class="collapse navbar-collapse menu" id="navmenu">
-        <ul class="navbar-nav ms-auto ">
+        <ul class="navbar-nav">
             <li class="nav-item">
                 <a href="/ui/about.html" class="nav-link">ABOUT</a>
             </li>
@@ -66,11 +59,10 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
                 <a href="/ui/works.html" class="nav-link">WORKS</a>
             </li>
             <li class="nav-item">
-                <a href="/ui/contact.html" class="nav-link active">CONTACT</a>
+                <a href="/ui/contact.html" class="nav-link">CONTACT</a>
             </li>
         </ul>
       </div>
-    </div>
 </nav>
 
 <div class="hero-banner contact">
@@ -130,11 +122,11 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
 <footer class="footer mt-5">
   <div class="container">
     <ul class="nav">
-      <li class="nav-item"><a href="/ui" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="/ui/about.html" class="nav-link">About</a></li>
-      <li class="nav-item"><a href="/ui/works.html" class="nav-link">Works</a></li>
-      <li class="nav-item"><a href="/ui/help.html" class="nav-link">Help</a></li>
-      <li class="nav-item"><a href="/ui/contact.html" class="nav-link">Contact</a></li>
+      <li class="nav-item"><a href="/ui/about.html" class="nav-link link">About</a></li>
+      <li class="nav-item"><a href="/ui/skills.html" class="nav-link link">Skills</a></li>
+      <li class="nav-item"><a href="/ui/experience.html" class="nav-link link">Experience</a></li>
+      <li class="nav-item"><a href="/ui/works.html" class="nav-link link">Works</a></li>
+      <li class="nav-item"><a href="/ui/contact.html" class="nav-link link">Contact</a></li>
     </ul>
     <ul class="nav social">
       <li><a class="link" href="Magento2-Frontend-Developer-PeeraShaik.pdf" download="Magento2-Frontend-Developer-PeeraShaik.PDF">Download - RESUME</a></li>

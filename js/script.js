@@ -9,7 +9,7 @@ $(document).ready(function() {
     //mobile menu nav
     $('.navbar-toggler').click(function(){
         $(this).toggleClass('open');
-        $('.sticky-top').toggleClass('mobileNav');
+        $('.navbar').toggleClass('mobileNav');
     });
 
     $(window).scroll(function() {
