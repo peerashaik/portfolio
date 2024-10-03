@@ -26,7 +26,7 @@
 @font-face {
     font-family: 'heliosextregular';
     src: url('../fonts/heliosext.woff2') format('woff2'),
-         url('../fonts/heliosext.woff') format('woff');
+        url('../fonts/heliosext.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,7 +34,7 @@
 @font-face {
     font-family: 'heliosextbold';
     src: url('../fonts/heliosext-bold.woff2') format('woff2'),
-         url('../fonts/heliosext-bold.woff') format('woff');
+        url('../fonts/heliosext-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -48,7 +48,12 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--white);
     font-family: 'heliosextbold';
     font-weight: normal;
@@ -242,18 +247,23 @@ hr {
 .color-bg.red {
     background-color: var(--red-light);
 }
+
 .color-bg.green {
     background-color: var(--green);
 }
+
 .color-bg.purple {
     background-color: var(--purple);
 }
+
 .color-bg.blue {
     background-color: var(--blue);
 }
+
 .color-bg.navy-blue {
     background-color: var(--navy-blue);
 }
+
 .color-bg.yellow {
     background-color: var(--yellow);
 }
@@ -261,23 +271,27 @@ hr {
 .color-bg.water {
     background-color: var(--water);
 }
+
 .slant {
-  width: 104%;
-  height: 75px;
-  transform:rotate(1.8deg);
-  position: absolute;
-  left: -5px;
-  right: 0;
-  bottom: -25px;
-  z-index: 0;
+    width: 104%;
+    height: 75px;
+    transform: rotate(1.8deg);
+    position: absolute;
+    left: -5px;
+    right: 0;
+    bottom: -25px;
+    z-index: 0;
 }
+
 .slant.light-blue {
     background: var(--light-blue);
-    transform:rotate(-1.8deg);
+    transform: rotate(-1.8deg);
 }
+
 .slant.black {
     background: var(--black);
 }
+
 .slant.black.top {
     background: var(--black);
     top: -25px;
@@ -312,11 +326,11 @@ hr {
 }
 
 .title {
-  font-family: "Pacifico", cursive;
-  font-size: 46px;
-  font-weight: 400;
-  line-height: 50px;
-  margin: 0 0 10px;
+    font-family: "Pacifico", cursive;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0 0 10px;
 }
 
 .header a {
@@ -623,6 +637,7 @@ hr {
 .content-heading {
     position: relative;
 }
+
 .content-heading:before {
     display: none;
     content: '';
@@ -636,6 +651,7 @@ hr {
     position: absolute;
     top: 54%;
 }
+
 .content-heading strong,
 .content-heading i {
     position: relative;
@@ -991,7 +1007,7 @@ hr {
 }
 
 .employer-list li i.num {
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(168,168,168,1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(168, 168, 168, 1) 100%);
     border-radius: 6px;
     font-size: 2.5rem;
     margin: 0;
@@ -1160,16 +1176,20 @@ hr {
     .my-work-list .img-wrapper:focus i {
         border: 100px solid var(--black);
     }
+
     .employer-list li {
         padding: 50px;
     }
+
     .employer-list li i.num {
         font-size: 4rem;
         left: calc(50% - 32px);
     }
+
     .employer-list h3 {
         margin: 0 0 15px;
     }
+
     .employer-list h3 span {
         display: inline-block;
         float: right;
@@ -1183,14 +1203,15 @@ hr {
 }
 
 @keyframes slide-right {
-  from {
-    right: -500px;
-    opacity: 0;
-  }
-  to {
-    right: 0;
-    opacity: 1;
-  }
+    from {
+        right: -500px;
+        opacity: 0;
+    }
+
+    to {
+        right: 0;
+        opacity: 1;
+    }
 }
 
 
@@ -1215,28 +1236,30 @@ hr {
     background-color: var(--yellow);
 }
 
-.limitF{
-  position: fixed;
-  top: 20vh;
-  height: 50vh;
-  width: 0;
-  opacity: .6;
+.limitF {
+    position: fixed;
+    top: 20vh;
+    height: 50vh;
+    width: 0;
+    opacity: .6;
 }
-.limitH{
-  position: fixed;
-  top: 40vh;
-  width: 10%;
+
+.limitH {
+    position: fixed;
+    top: 40vh;
+    width: 10%;
     -webkit-animation: linear infinite;
-  -webkit-animation-name: run;
-  -webkit-animation-duration: 8s;
-  opacity: 0;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 8s;
+    opacity: 0;
 }
-.limitQ{
-  position: fixed;
-  top: 60vh;
-  height: 50vh;
-  width: 0;
-  opacity: .3;
+
+.limitQ {
+    position: fixed;
+    top: 60vh;
+    height: 50vh;
+    width: 0;
+    opacity: .3;
 }
 
 .full {
@@ -1246,27 +1269,32 @@ hr {
     -webkit-animation-duration: 2s;
     opacity: 1;
 }
+
 .limitF.full {
     border-top: 2px solid var(--red-light);
     transition: width 2s;
 }
+
 .limitH.full {
     border-top: 2px solid var(--yellow);
     transition: width 5s;
 }
+
 .limitQ.full {
     border-top: 2px solid var(--blue);
     transition: width 7s;
 }
 
 @-webkit-keyframes run {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 100%;
-  }
-  100% {
-    left: 0;    
-  }
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0;
+    }
 }
