@@ -60,7 +60,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
                 <a href="/ui/skills.html" class="nav-link">SKILLS</a>
             </li>
             <li class="nav-item">
-                <a href="/ui/experiences.html" class="nav-link">EXPEREINCES</a>
+                <a href="/ui/experience.html" class="nav-link">EXPEREINCES</a>
             </li>
             <li class="nav-item">
                 <a href="/ui/works.html" class="nav-link">WORKS</a>
@@ -128,7 +128,7 @@ echo "You have subscribed to my newsletter. Thank you, I will contact you shortl
 
 <!-- Footer -->
 <footer class="footer mt-5">
-  <div class="container clearfix">
+  <div class="container">
     <ul class="nav">
       <li class="nav-item"><a href="/ui" class="nav-link">Home</a></li>
       <li class="nav-item"><a href="/ui/about.html" class="nav-link">About</a></li>

@@ -496,12 +496,14 @@ hr {
 }
 
 .footer .container {
+    display: block;
     padding: 50px 0 0 0;
 }
 
 .footer .nav,
 .footer .nav.social {
-    float: none;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -1024,8 +1026,8 @@ hr {
 
 .back-to-top {
     position: fixed;
-    bottom: 60px;
-    right: 50px;
+    bottom: 50px;
+    right: 20px;
     display: inline-block;
 }
 
@@ -1055,12 +1057,15 @@ hr {
         display: block;
     }
 
-    .footer .nav {
-        float: left;
+    .footer .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .footer .nav.social {
-        float: right;
+        display: flex;
+        align-items: center;
         margin: 0;
     }
 
@@ -1148,6 +1153,11 @@ hr {
         display: inline-block;
         float: right;
         font-size: .725rem;
+    }
+
+    .back-to-top {
+        bottom: 160px;
+        right: 50px;
     }
 }
 
