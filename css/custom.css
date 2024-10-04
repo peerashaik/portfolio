@@ -442,6 +442,7 @@ hr {
 
 .navbar .collapse {
     display: flex;
+    justify-content: center;
     background: var(--black);
     height: 100vh;
     width: 100vw;
@@ -454,8 +455,6 @@ hr {
 }
 
 .navbar.mobileNav .collapse {
-    display: flex;
-    justify-content: center;
     right: 0;
     animation: .6s slide-in;
 }
