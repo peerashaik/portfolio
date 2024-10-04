@@ -416,8 +416,9 @@ hr {
 .navbar {
     padding: 0;
     position: fixed;
+    top: 0;
     right: 0;
-    z-index: 999;
+    z-index: 99;  
 }
 
 .navbar-toggler {
@@ -427,7 +428,7 @@ hr {
     position: fixed;
     top: 50px;
     right: 40px;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .navbar-toggler:after {
@@ -439,7 +440,7 @@ hr {
     height: 30px;
 }
 
-.navbar.mobileNav {
+.navbar .collapse {
     display: flex;
     background: var(--black);
     height: 100vh;
@@ -447,19 +448,21 @@ hr {
     padding: 0;
     position: fixed;
     top: 0;
-    right: 0;
-    z-index: 9999;
-    animation: .6s slide-right;
+    right: -100vw;
+    z-index: 999;
+    animation: .6s slide-out;
 }
 
 .navbar.mobileNav .collapse {
     display: flex;
     justify-content: center;
+    right: 0;
+    animation: .6s slide-in;
 }
 
-/*.mobileNav .navbar-nav .nav-item {
+.navbar-nav .nav-item {
     text-align: center;
-}*/
+}
 
 .navbar-toggler .navicon {
     background: var(--white);
@@ -495,10 +498,10 @@ hr {
     display: none !important;
 }
 
-.navbar-expand-lg.mobileNav .navbar-collapse {
+/*.navbar-expand-lg.mobileNav .navbar-collapse {
     display: flex !important;
     justify-content: center;
-}
+}*/
 
 .menu-btn {
     display: none;
@@ -657,9 +660,6 @@ hr {
     position: relative;
     z-index: 99;
 }
-
-/*shapes with backgrounds*/
-
 
 /*Home Banners*/
 .banners {
@@ -1084,8 +1084,9 @@ hr {
         padding: 0 10%;
     }
 
-    .navbar.mobileNav {
-        width: 35%;
+    .navbar .collapse {
+        width: 500px;
+        right: -500px;
     }
 
     .container {
@@ -1202,7 +1203,7 @@ hr {
     }
 }
 
-@keyframes slide-right {
+@keyframes slide-in {
     from {
         right: -500px;
         opacity: 0;
@@ -1214,6 +1215,16 @@ hr {
     }
 }
 
+@keyframes slide-out {
+  from {
+    right: 0;
+    opacity: 1;
+  }
+  to {
+    right: -500px;
+    opacity: 0;
+  }
+}
 
 .window.banner {
     border-radius: 0 !important;
