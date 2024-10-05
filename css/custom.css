@@ -450,8 +450,8 @@ hr {
     position: fixed;
     top: 0;
     right: -100vw;
-    z-index: 999;
     animation: .6s slide-out;
+    z-index: 999;
 }
 
 .navbar.mobileNav .collapse {
@@ -492,15 +492,6 @@ hr {
     top: -10px;
     width: 36px;
 }
-
-.navbar-expand-lg .navbar-collapse {
-    display: none !important;
-}
-
-/*.navbar-expand-lg.mobileNav .navbar-collapse {
-    display: flex !important;
-    justify-content: center;
-}*/
 
 .menu-btn {
     display: none;

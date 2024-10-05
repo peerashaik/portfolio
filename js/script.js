@@ -10,6 +10,11 @@ $(document).ready(function() {
     $('.navbar-toggler').click(function(){
         $(this).toggleClass('open');
         $('.navbar').toggleClass('mobileNav');
+        if($(this).hasClass('open')) {
+            $('.menu').addClass('');
+        } else {
+            $('.menu').removeClass('slideout');
+        }
     });
 
     $(window).scroll(function() {
