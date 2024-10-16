@@ -18,8 +18,8 @@ $(document).ready(function() {
     });
 
     $(window).scroll(function() {
-        var scroll30 = $(window).scrollTop();
-        if (scroll30 >= 200 && x <= 800) {
+        var scrolLine = $(window).scrollTop();
+        if (scrolLine >= 200 && x <= 800) {
             $('#lines > div').addClass('full');
         } else {
             $('#lines > div').removeClass('full');
