@@ -542,7 +542,7 @@ hr {
 
 .footer .nav .nav-link {
     color: var(--dark);
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0 20px;
     padding: 4px 0;
     position: relative;
@@ -550,7 +550,7 @@ hr {
 
 .footer .nav.social .link {
     color: var(--pink-dark);
-    font-size: .875rem;
+    font-size: 14px;
     margin-right: 20px;
 }
 
@@ -574,7 +574,7 @@ hr {
 
 .copyright {
     color: var(--grey-dark);
-    font-size: .825rem;
+    font-size: 13px;
 }
 
 .link {
@@ -698,8 +698,7 @@ hr {
 .hero-banner {
     position: relative;
     max-height: 600px;
-    min-height: 285px;
-    overflow: hidden;
+    min-height: 360px;
 }
 
 .hero-banner.contact {
@@ -745,21 +744,21 @@ hr {
 }
 
 .hero-banner h2 {
-    font-size: 2.375rem;
+    font-size: 38px;
 }
 
 .hero-banner h3 {
-    font-size: 1.875rem;
+    font-size: 30px;
     opacity: .7;
 }
 
 .hero-banner h4 {
-    font-size: 1.5rem;
+    font-size: 24px;
     opacity: .4;
 }
 
 .hero-banner h5 {
-    font-size: 1..125rem;
+    font-size: 18px;
     opacity: .25;
 }
 
@@ -769,7 +768,7 @@ hr {
 }
 
 .blockquote h2 {
-    font-size: 4rem;
+    font-size: 46px;
     font-weight: 600;
     margin: 0;
 }
@@ -794,7 +793,7 @@ hr {
 
 .card h4 {
     color: var(--black);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: -1px;
     text-transform: uppercase;
@@ -803,7 +802,7 @@ hr {
 
 .card p {
     color: var(--black);
-    font-size: .825rem;
+    font-size: 13px;
     margin: 0 0 20px;
 }
 
@@ -820,7 +819,7 @@ hr {
     color: var(--black);
     cursor: default;
     display: inline-block;
-    font-size: 2.25rem;
+    font-size: 36px;
     padding: 20px;
     height: 76px;
     width: 76px;
@@ -866,7 +865,7 @@ hr {
 
 .key-skills li i {
     margin-right: 10px;
-    font-size: .935rem;
+    font-size: 14px;
 }
 
 .key-skills .pic {
@@ -935,7 +934,7 @@ hr {
     color: var(--black);
     display: inline-block;
     width: auto;
-    font-size: 1.325rem;
+    font-size: 22px;
     margin: 20px 0 0;
     position: relative;
 }
@@ -998,13 +997,13 @@ hr {
 .employer-list li i {
 
     margin-right: 12px;
-    font-size: .625rem;
+    font-size: 10px;
 }
 
 .employer-list li i.num {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(168, 168, 168, 1) 100%);
     border-radius: 6px;
-    font-size: 2.5rem;
+    font-size: 40px;
     margin: 0;
     position: absolute;
     top: 15px;
@@ -1022,7 +1021,7 @@ hr {
     display: block;
     color: var(--grey);
     float: none;
-    font-size: .825rem;
+    font-size: 13px;
     margin: 15px 0 0;
 }
 
@@ -1067,7 +1066,7 @@ hr {
 
 .back-to-top i {
     color: var(--white);
-    font-size: 3rem;
+    font-size: 48px
 }
 
 .back-to-top:hover i {
@@ -1113,6 +1112,7 @@ hr {
 
     .hero-banner {
         min-height: 600px;
+        overflow: hidden;
     }
 
     .hero-banner h2,
@@ -1123,19 +1123,19 @@ hr {
     }
 
     .hero-banner h2 {
-        font-size: 5rem;
+        font-size: 80px;
     }
 
     .hero-banner h3 {
-        font-size: 4.065rem;
+        font-size: 65px;
     }
 
     .hero-banner h4 {
-        font-size: 2.815rem;
+        font-size: 45px;
     }
 
     .hero-banner h5 {
-        font-size: 1.875rem;
+        font-size: 30px;
     }
 
     .card {
@@ -1177,7 +1177,7 @@ hr {
     }
 
     .employer-list li i.num {
-        font-size: 4rem;
+        font-size:64px;
         left: calc(50% - 32px);
     }
 
@@ -1188,7 +1188,7 @@ hr {
     .employer-list h3 span {
         display: inline-block;
         float: right;
-        font-size: .725rem;
+        font-size: 12px;
     }
 
     .back-to-top {
