@@ -918,8 +918,11 @@ hr {
 .my-work-list .img-wrapper:hover i,
 .my-work-list .img-wrapper:focus i {
     border: 50px solid var(--black);
-    outline-color: var(--pink);
+    outline-style: dotted;
+    outline-color: var(--pink-dark);
     transition: all 0.35s ease;
+    transform: rotate(90deg);
+    opacity: .5;
 }
 
 .my-work-list .img-wrapper img {
