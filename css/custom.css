@@ -935,7 +935,7 @@ hr {
     color: var(--black);
     display: inline-block;
     width: auto;
-    font-size: 22px;
+    font-size: 20px;
     margin: 20px 0 0;
     position: relative;
 }
@@ -1152,6 +1152,7 @@ hr {
     }
 
     .my-work-list .item h2 {
+        font-size: 22px;
         margin: 20px 50px 0;
     }
 
