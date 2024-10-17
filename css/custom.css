@@ -14,6 +14,7 @@
     --red: #f02d2d;
     --red-light: #ee4d4d;
     --yellow: #f1d71a;
+    --yellow-light: #fff500;
     --water: #40cea7;
     --green: #0ed08a;
     --pink: #ffb2c5;
@@ -232,7 +233,7 @@ hr {
 }
 
 .text-yellow {
-    color: var(--yellow);
+    color: var(--yellow--light);
 }
 
 .text-water {
