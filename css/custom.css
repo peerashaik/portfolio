@@ -1278,6 +1278,7 @@ hr {
     -webkit-animation-name: run;
     -webkit-animation-duration: 2s;
     opacity: 1;
+    z-index: 9999;
 }
 
 .limitF.full {
