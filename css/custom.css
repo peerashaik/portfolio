@@ -691,7 +691,7 @@ hr {
 }
 
 .banners div:hover {
-    cursor: zoom-out;
+    cursor: pointer;
     transform: scale(1.1);
 }
 
