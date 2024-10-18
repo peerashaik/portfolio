@@ -18,6 +18,8 @@ $(document).ready(function() {
         }
     });
 
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
     window.addEventListener('scroll', e => {
         //scrolling lines
         // var scrolLine = $(window).scrollTop();
