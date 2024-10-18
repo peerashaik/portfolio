@@ -1,6 +1,12 @@
 $(document).ready(function() {
     'use strict';
 
+    //url re-wrtite
+    var url = window.location.href;
+    url = url.split('.html')[0];
+    //url = url.substring(0, url.lastIndexOf("."));
+    window.history.replaceState( null, null, url );
+
     //copyright year
     let date = new Date();
     let year = date.getFullYear();
@@ -18,11 +24,7 @@ $(document).ready(function() {
         }
     });
 
-var url = window.location.href;
-url = url.split('.html')[0];
-//url = url.substring(0, url.lastIndexOf("."));
-window.history.replaceState( null, null, url );
-
+    //right click disbaled
     document.addEventListener('contextmenu', event => event.preventDefault());
 
     window.addEventListener('scroll', e => {
