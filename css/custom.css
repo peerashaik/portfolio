@@ -1246,7 +1246,7 @@ hr {
     background-color: var(--yellow);
 }
 
-.limitF {
+/*.limitF {
     position: fixed;
     top: 20vh;
     height: 50vh;
@@ -1281,18 +1281,26 @@ hr {
     z-index: 9999;
 }
 
+
+
 .limitF.full {
-    border-top: 2px solid var(--red-light);
+    border-image: linear-gradient(to right, #ee4d4d 0%, #000 50%) 1;
+    border-width: 2px 0 0 0;
+    border-style: solid;
     transition: width 2s;
 }
 
 .limitH.full {
-    border-top: 2px solid var(--yellow);
+    border-image: linear-gradient(to right, #f1d71a 0%, #000 50%) 1;
+    border-width: 2px 0 0 0;
+    border-style: solid;
     transition: width 5s;
 }
 
 .limitQ.full {
-    border-top: 2px solid var(--blue);
+    border-image: linear-gradient(to right, #2cd2f0 0%, #000 50%) 1;
+    border-width: 2px 0 0 0;
+    border-style: solid;
     transition: width 7s;
 }
 
@@ -1308,4 +1316,4 @@ hr {
     100% {
         left: 0;
     }
-}
+}*/

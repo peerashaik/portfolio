@@ -20,13 +20,13 @@ $(document).ready(function() {
 
     window.addEventListener('scroll', e => {
         //scrolling lines
-        var scrolLine = $(window).scrollTop();
+        // var scrolLine = $(window).scrollTop();
 
-        if (scrolLine >= 200 && scrolLine <= 800) {
-            $('#lines > div').addClass('full');
-        } else {
-            $('#lines > div').removeClass('full');
-        }
+        // if (scrolLine >= 250 && scrolLine <= 450) {
+        //     $('#lines > div').addClass('full');
+        // } else {
+        //     $('#lines > div').removeClass('full');
+        // }
 
         //smooth back to top
         const btnScrollToTop = document.querySelector(".back-to-top");
