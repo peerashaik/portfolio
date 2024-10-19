@@ -25,13 +25,7 @@ $(document).ready(function() {
     });
 
     //right click disbaled
-    //document.addEventListener('contextmenu', event => event.preventDefault());
-    document.addEventListener('keydown', event => {
-        if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey && event.keyCode === 73)) {
-            event.preventDefault();
-        }
-    });
-
+    document.addEventListener('contextmenu', event => event.preventDefault());
 
     window.addEventListener('scroll', e => {
         //scrolling lines

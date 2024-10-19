@@ -707,12 +707,23 @@ hr {
     max-height: 420px;
 }
 
-.hero-banner.contact .pic {
-    background-image: url('../images/hero-banner5.jpg');
+.hero-banner .pic {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+
+.hero-banner.about .pic {
+    background-image: url('../images/hero-banner2.jpeg');
+}
+
+.hero-banner.contact .pic {
+    background-image: url('../images/hero-banner5.jpg');
+}
+
+.hero-banner.skills .pic {
+    background-image: url('../images/hero-banner1.jpg');
 }
 
 .hero-banner .overlay,
