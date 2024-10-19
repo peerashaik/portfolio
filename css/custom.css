@@ -699,7 +699,7 @@ hr {
 .hero-banner {
     position: relative;
     max-height: 600px;
-    min-height: 360px;
+    min-height: 450px;
 }
 
 .hero-banner.contact {
@@ -710,6 +710,8 @@ hr {
 .hero-banner .pic {
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    position: absolute;
     height: 100%;
     width: 100%;
 }
