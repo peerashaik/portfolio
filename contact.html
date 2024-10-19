@@ -98,54 +98,7 @@
       </div>
       <div class="col-md-8">
         <p>Please contact from any of the medium shared on left to serve you better.</p>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.3.0/maptiler-sdk.umd.js"></script>
-    <link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.3.0/maptiler-sdk.css" rel="stylesheet" />
-    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v2.0.0/leaflet-maptilersdk.js"></script>
-    <style>
-      #map {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
-    </style>
-    <div id="map"></div>
-    <script>
-      const map = L.map('map').setView([41.782993,3.030553], 14);
-      const mtLayer = L.maptilerLayer({
-        apiKey: 'YOUR_MAPTILER_API_KEY_HERE',
-        style: L.MaptilerStyle.DATAVIZ.LIGHT, // optional
-      }).addTo(map);
-
-      mtLayer.on("ready", () => {
-
-        // Leverage the MapTiler SDK layer helpers to easily add polyline / point / polygon / heatmap layers
-        mtLayer.addPolygon({
-          data: 'guixols.geojson',
-          fillColor: [
-            {zoom: 14, value: "#593895"},
-            {zoom: 15, value: "#761FE8"},
-            {zoom: 16, value: "#F1175D"},
-            {zoom: 17, value: "#FB3A1B"},
-            {zoom: 18, value: "#FBC935"},
-            {zoom: 19, value: "#FFAA01"},
-          ],
-          outline: true,
-          outlineWidth: [
-            {zoom: 14, value: 0},
-            {zoom: 15, value: 1},
-            {zoom: 16, value: 2},
-            {zoom: 17, value: 3},
-            {zoom: 18, value: 4},
-            {zoom: 19, value: 5},
-          ],
-          outlineColor: [
-            {zoom: 14, value: "#805CC2"},
-            {zoom: 16, value: "#E25041"},
-            {zoom: 18, value: "#FFD65F"},
-          ],
-          outlinePosition: "inside",
-        });
-
-      });
-    </script>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.0429666229174!2d78.52536347493412!3d17.36166538352114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98f3392aeae1%3A0xcd793fc995785c3a!2s13-57%2C%20Saroornagar%2C%20Kodandaram%20Nagar%2C%20Dilsukhnagar%2C%20Hyderabad%2C%20Telangana%20500060!5e0!3m2!1sen!2sin!4v1725111380820!5m2!1sen!2sin" style="border:0;width: 100%; min-height: 500px;margin-top: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </div>
