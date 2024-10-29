@@ -33,16 +33,14 @@ window.addEventListener('load', function() {
 });
 
 $(document).ready(function() {
-    //mobile menu nav
     $('.navbar-toggler').click(function() {
-        $(this).toggleClass('open');
-        $('.navbar').toggleClass('mobileNav');
+        $('.menu-btn').toggleClass('open');
+        $('.navbar-collapse').toggleClass('open');
+    });
 
-        if($(this).hasClass('open')) {
-            $('.menu').addClass('');
-        } else {
-            $('.menu').removeClass('slideout');
-        }
+    $('.navbar-nav .nav-link').click(function() {
+        $('.menu-btn').removeClass('open');
+        $('.navbar-collapse').removeClass('open');
     });
 });
 

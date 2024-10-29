@@ -365,7 +365,8 @@ hr {
     margin: 15px 0;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.active {
     color: var(--white);
     display: inline-block;
     margin: 0 20px;
@@ -414,6 +415,11 @@ hr {
     opacity: 1;
 }
 
+.navbar-nav .nav-link.active:before,
+.navbar-nav .nav-link.active:after {
+    display: none;
+}
+
 .navbar {
     padding: 0;
     position: fixed;
@@ -441,6 +447,12 @@ hr {
     height: 30px;
 }
 
+.collapse:not(.show) {
+    display: flex;
+    height: 100vh;
+    width: 80%;
+}
+
 .navbar-collapse {
     background: var(--black);
     height: 100vh;
@@ -450,16 +462,15 @@ hr {
     top: 0;
     right: -500px;
     z-index: 999;
-
+    animation: .5s slide-out;
 }
 
-.navbar-toggler.open + .navbar-collapse {
+.navbar-collapse.open {
     display: flex;
     justify-content: center;
     right: 0;
     animation: .5s slide-in;
 }
-
 
 .navbar-nav .nav-item {
     text-align: center;
@@ -499,23 +510,23 @@ hr {
     display: none;
 }
 
-.menu-btn:checked~.navbar-toggler .navicon {
+.menu-btn.open:checked~.navbar-toggler .navicon {
     background: transparent;
     width: 32px;
 }
 
-.menu-btn:checked~.navbar-toggler .navicon:before {
+.menu-btn.open:checked~.navbar-toggler .navicon:before {
     transform: rotate(-45deg);
     width: 32px;
 }
 
-.menu-btn:checked~.navbar-toggler .navicon:after {
+.menu-btn.open:checked~.navbar-toggler .navicon:after {
     transform: rotate(45deg);
     width: 32px;
 }
 
-.menu-btn:checked~.navbar-toggler:not(.steps) .navicon:before,
-.menu-btn:checked~.navbar-toggler:not(.steps) .navicon:after {
+.menu-btn.open:checked~.navbar-toggler:not(.steps) .navicon:before,
+.menu-btn.open:checked~.navbar-toggler:not(.steps) .navicon:after {
     top: 0;
 }
 
@@ -650,7 +661,7 @@ hr {
 .content-heading strong,
 .content-heading i {
     position: relative;
-    z-index: 99;
+    z-index: 9;
 }
 
 /*Home Banners*/
@@ -915,7 +926,7 @@ hr {
     outline-style: solid;
     outline-color: var(--black);
     outline-width: 50px;
-    z-index: 999;
+    z-index: 9;
     opacity: .3;
 }
 
@@ -1106,6 +1117,10 @@ hr {
     }
 
     .navbar-collapse {
+        width: 500px;
+    }
+
+    .collapse:not(.show) {
         width: 500px;
     }
 
