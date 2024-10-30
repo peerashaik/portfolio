@@ -32,17 +32,17 @@ window.addEventListener('load', function() {
 
 });
 
-$(document).ready(function() {
-    $('.navbar-toggler').click(function() {
-        $('.menu-btn').toggleClass('open');
-        $('.navbar-collapse').toggleClass('open');
-    });
+// $(document).ready(function() {
+//     $('.navbar-toggler').click(function() {
+//         $('.menu-btn').toggleClass('open');
+//         $('.navbar-collapse').toggleClass('open');
+//     });
 
-    $('.navbar-nav .nav-link').click(function() {
-        $('.menu-btn').removeClass('open');
-        $('.navbar-collapse').removeClass('open');
-    });
-});
+//     $('.navbar-nav .nav-link').click(function() {
+//         $('.menu-btn').removeClass('open');
+//         $('.navbar-collapse').removeClass('open');
+//     });
+// });
 
 //site visitor counter
 // var counterContainer = document.querySelector(".website-counter");
