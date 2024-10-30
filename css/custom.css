@@ -461,8 +461,8 @@ hr {
     position: fixed;
     top: 0;
     right: -500px;
-    z-index: 999;
     animation: .5s slide-out;
+    z-index: 999;
 }
 
 .navbar-collapse.open {
@@ -510,30 +510,29 @@ hr {
     display: none;
 }
 
-.menu-btn.open:checked~.navbar-toggler .navicon {
+.menu-btn:checked~.navbar-toggler .navicon {
     background: transparent;
     width: 32px;
 }
 
-.menu-btn.open:checked~.navbar-toggler .navicon:before {
+.menu-btn:checked~.navbar-toggler .navicon:before {
     transform: rotate(-45deg);
     width: 32px;
 }
 
-.menu-btn.open:checked~.navbar-toggler .navicon:after {
+.menu-btn:checked~.navbar-toggler .navicon:after {
     transform: rotate(45deg);
     width: 32px;
 }
 
-.menu-btn.open:checked~.navbar-toggler:not(.steps) .navicon:before,
-.menu-btn.open:checked~.navbar-toggler:not(.steps) .navicon:after {
+.menu-btn:checked~.navbar-toggler:not(.steps) .navicon:before,
+.menu-btn:checked~.navbar-toggler:not(.steps) .navicon:after {
     top: 0;
 }
 
 /*Footer*/
 .footer {
     border-top: 1px solid var(--grey-dark);
-    margin-top: 50px;
 }
 
 .footer .container {
@@ -737,6 +736,10 @@ hr {
 
 .hero-banner.skills .pic {
     background-image: url('../images/hero-banner1.jpg');
+}
+
+.hero-banner.patrons .pic {
+    background-image: url('../images/hero-banner4.jpg');
 }
 
 .hero-banner .overlay,
@@ -1114,10 +1117,6 @@ hr {
 @media (min-width: 768px) {
     .px-10 {
         padding: 0 10%;
-    }
-
-    .navbar-collapse {
-        width: 500px;
     }
 
     .collapse:not(.show) {
