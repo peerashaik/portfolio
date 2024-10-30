@@ -438,22 +438,19 @@ hr {
 }
 .navToggle span:first-child {
      transform-origin: 0% 0%;
-     width: 30px;
 }
  .navToggle span:nth-last-child(2) {
      transform-origin: 0% 100%;
-     width: 24px;
+     width: 22px;
 }
 .navToggle input:checked ~ span {
      opacity: 1;
      transform: rotate(45deg) translate(-2px, -1px);
      background: var(--white);
-     width: 34px;
 }
 .navToggle input:checked ~ span:nth-last-child(3) {
      opacity: 0;
      transform: rotate(0deg) scale(0.2, 0.2);
-     width: 34px;
 }
 .navToggle input:checked ~ span:nth-last-child(2) {
      transform: rotate(-45deg) translate(0, -1px);
