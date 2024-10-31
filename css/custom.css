@@ -441,9 +441,14 @@ iframe {
      transform-origin: 4px 0px;
      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
 }
+<<<<<<< HEAD
  .navToggle span:nth-last-child(3) {
      transform-origin: 0% 100%;
      width: 28px;
+=======
+.navToggle span:first-child {
+     transform-origin: 0% 0%;
+>>>>>>> 6c9de7c8e6af53d6cf621b3beb5e885459efc0d6
 }
  .navToggle span:nth-last-child(2) {
      transform-origin: 0% 100%;
@@ -462,7 +467,10 @@ iframe {
      transform: rotate(-45deg) translate(0, -1px);
      width: 34px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6c9de7c8e6af53d6cf621b3beb5e885459efc0d6
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -481,6 +489,17 @@ iframe {
     transform-origin: 0% 0%;
     transform: translate(100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+<<<<<<< HEAD
+=======
+}
+
+.menu li {
+    padding: 10px 0;
+    font-size: 22px;
+}
+.navToggle input:checked ~ ul {
+    transform: none;
+>>>>>>> 6c9de7c8e6af53d6cf621b3beb5e885459efc0d6
 }
 
 .menu li {

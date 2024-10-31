@@ -29,30 +29,3 @@ $(document).ready(function() {
       $('.navToggle input').prop('checked', false);
     });
 });
-
-// $(document).ready(function() {
-//     $('.navbar-toggler').click(function() {
-//         $('.menu-btn').toggleClass('open');
-//         $('.navbar-collapse').toggleClass('open');
-//     });
-
-//     $('.navbar-nav .nav-link').click(function() {
-//         $('.menu-btn').removeClass('open');
-//         $('.navbar-collapse').removeClass('open');
-//     });
-// });
-
-//site visitor counter
-// var counterContainer = document.querySelector(".website-counter");
-// var visitCount = localStorage.getItem("page_view");
-
-// // Check if page_view entry is present
-// if (visitCount) {
-//     visitCount = Number(visitCount) + 1;
-//     localStorage.setItem("page_view", visitCount);
-// } else {
-//     visitCount = 1;
-//     localStorage.setItem("page_view", 1);
-// }
-
-// counterContainer.innerHTML = visitCount;
