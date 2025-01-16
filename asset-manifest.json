@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ui/static/css/main.5deabeb5.css",
+    "main.js": "/ui/static/js/main.0c35d97c.js",
+    "static/media/hero-banner2.jpeg": "/ui/static/media/hero-banner2.a2901d3874ac3561bf95.jpeg",
+    "static/media/vita4you.png": "/ui/static/media/vita4you.b49c66726b6ef46a1d76.png",
+    "static/media/hero-banner1.jpg": "/ui/static/media/hero-banner1.5a8b88489e5a0b8194ca.jpg",
+    "static/media/hero-banner5.jpg": "/ui/static/media/hero-banner5.622008656a089d82d8df.jpg",
+    "static/media/hero-banner4.jpeg": "/ui/static/media/hero-banner4.d2079fc8e729d4916aa0.jpeg",
+    "static/media/mynpp.png": "/ui/static/media/mynpp.a38f6b604d7d1a380416.png",
+    "static/media/heliosext.woff": "/ui/static/media/heliosext.34eae4915df009a9db57.woff",
+    "static/media/heliosext-bold.woff": "/ui/static/media/heliosext-bold.39f16363ab648ef7ca1c.woff",
+    "static/media/heliosext.woff2": "/ui/static/media/heliosext.96a983bcc1b10b32069b.woff2",
+    "static/media/heliosext-bold.woff2": "/ui/static/media/heliosext-bold.a3e735bb5a41278580d8.woff2",
+    "index.html": "/ui/index.html",
+    "main.5deabeb5.css.map": "/ui/static/css/main.5deabeb5.css.map",
+    "main.0c35d97c.js.map": "/ui/static/js/main.0c35d97c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5deabeb5.css",
+    "static/js/main.0c35d97c.js"
+  ]
+}
