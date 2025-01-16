@@ -163,7 +163,7 @@ export const worksData = [{
 
 export function getImage(work) {
   return (
-    'https://github.com/peerashaik/portfolio/images/works/' +
+    'https://github.com/peerashaik/ui/images/works/' +
     work.image +
     '.png'
   );
