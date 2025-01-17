@@ -6,16 +6,12 @@ import styled from 'styled-components';
 
 /* left right scroll on page scroll*/
 const LRScroller = styled.div`
-  ul {
-    display: flex;
-    list-style: none;
-  }
-
   li {
     background: var(--pink);
     border-radius: 10px;
+    color: var(--white) !important;
     font-size: 12px;
-    padding: 5px 20px;
+    padding: 5px 30px;
     margin: 0 8px;
   }
 
@@ -27,8 +23,9 @@ const LRScroller = styled.div`
     width: max-content;
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
     white-space: nowrap;
-    animation: 1s scrolling linear;
+    animation: .2s scrolling linear;
     animation-timeline: scroll(root);
     margin: 20px 0;
   }
@@ -153,7 +150,7 @@ const Home = () => {
     </FadeInSection>
 
     <FadeInSection>
-    <div className="my-20">
+    <div className="my-20 grid place-items-center">
     <div className="container">
       <LRScroller data-animated="true">
         <ul className="scroller-inner">
