@@ -158,6 +158,14 @@ export const worksData = [{
   title: 'Engineering & Supervision Custom Web Application Design',
   theme: 'Designed and developed custom web application',
   framework: 'Custom Development'
+}, {
+  id: 20,
+  name: 'Leaf Studios',
+  url: 'https://www.leafstudios.in/',
+  image: 'leaf',
+  title: 'Custom Web Design and Development of Shopify ecommerce application',
+  theme: 'Designed and developed custom Shopify web application',
+  framework: 'Custom theme design and Development'
 }];
 
 
