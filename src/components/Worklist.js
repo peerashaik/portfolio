@@ -165,7 +165,7 @@ export const worksData = [{
   image: 'leaf',
   title: 'Custom Web Design and Development of Shopify ecommerce application',
   theme: 'Designed and developed custom Shopify web application',
-  framework: 'Custom theme design and Development'
+  framework: 'Shopify UI'
 }];
 
 
