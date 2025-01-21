@@ -49,7 +49,7 @@ const Home = () => {
     <div className="container">
       <div className="text-center mt-5 px-10">
         <p className="text-gray-500">I am <span className="text-white">Peera Shaik</span>, passionate user interface designer and creative <span className="text-white">Web, App &amp; Brand</span> designer.</p>
-        <h1 className="hero-text my-5 text-5xl md:text-8xl">SOLID 21 YEARS<br /> OF EXPERIENCE</h1>
+        <h1 className="hero-text my-5 text-6xl md:text-8xl">SOLID 21 YEARS<br /> OF EXPERIENCE</h1>
         <p>Let's build a client Satisfactory - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
       </div>
     </div>
