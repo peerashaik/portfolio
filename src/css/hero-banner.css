@@ -13,8 +13,8 @@
     width: 100%;
 }
 
-.hero-banner.contact .about {
-    background-image: url('../images/hero-banner2.jpeg');
+.hero-banner.about .pic {
+    background-image: url('../images/hero-banner2.jpg');
 }
 
 .hero-banner.contact .pic {
