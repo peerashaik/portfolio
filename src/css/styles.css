@@ -532,6 +532,13 @@ input[type="submit"] {
 }
 
 /*Home Banners*/
+.hero-text {
+    background: -webkit-linear-gradient(313deg, var(--pink), var(--pink), var(--grey-dark), var(--grey-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #fff0;
+}
+
 .banners .color-bg {
     min-height: 360px;
     padding: 80px 30px;
