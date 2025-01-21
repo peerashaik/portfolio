@@ -184,7 +184,7 @@ export default function List() {
       <div className="img-wrapper">
           <i className="logo"></i>
           <a href={work.url} target="_blank" rel="noreferrer">
-            <img src={getImage(work)} alt={work.name} />
+            <img src={getImage(work)} alt={work.name} title={work.name} />
           </a>
       </div>
       <h2 className="text-white mt-10 mb-2 relative">{work.title}</h2>

@@ -12,7 +12,7 @@ const Resume = () => {
     };
     return (
         <>
-        <a href="#" onClick={onButtonClick} className="link">
+        <a href="#" title="Download Resume" onClick={onButtonClick} className="link">
             Download - RESUME
         </a>
         </>

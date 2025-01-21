@@ -1,6 +1,7 @@
 import React from "react";
 import FadeInSection from './FadeInSection';
 import Button from './Button';
+// import Aboutpic from './../assets/images/hero-banner2.jpeg';
 
 const About = () => {
   return (

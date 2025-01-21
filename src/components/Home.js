@@ -99,7 +99,9 @@ const Home = () => {
         <div className="item">
           <div className="img-wrapper">
               <i className="logo"></i>
-              <a href="https://vita4you.gr" target="_blank" rel="noreferrer"><img src={require("../../src/images/works/vita4you.png")} loading="lazy" alt="Vita4you" /></a>
+              <a href="https://vita4you.gr" target="_blank" rel="noreferrer">
+                <img src={require("../../src/images/works/vita4you.png")} loading="lazy" alt="Vita4you" title="Vita4you" />
+              </a>
           </div>
           <h2 className="text-white mt-10 mb-2 relative">Health Care Product Redesign and Customization</h2>
           <p className="mb-5 text-sm">A complete new design integration of a ecommerce application</p>
@@ -108,7 +110,9 @@ const Home = () => {
         <div className="item">
           <div className="img-wrapper">
               <i className="logo"></i>
-              <a href="https://mynpp.com" target="_blank" rel="noreferrer"><img src={require('../../src/images/works/mynpp.png')} loading="lazy" alt="Mynpp" /></a>
+              <a href="https://mynpp.com" target="_blank" rel="noreferrer">
+                <img src={require('../../src/images/works/mynpp.png')} loading="lazy" alt="Mynpp" title="Mynpp" />
+              </a>
           </div>
           <h2 className="text-white mt-10 mb-2 relative">Purchasing partner application design and integration</h2>
           <p className="mb-5 text-sm">Designing a custom theme of a Wordpress application</p>
