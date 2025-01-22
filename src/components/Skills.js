@@ -46,7 +46,7 @@ const Skills = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20 px-10">
-        <h2 className="text-4xl md:text-5xl text-center mb-10"><strong>Around the world <br />the most <span className="inline-block text-blue">innovative</span></strong></h2>
+        <h2 className="text-4xl md:text-5xl text-center mb-10">Around the world <br />the most <span className="inline-block text-blue">innovative</span></h2>
         <p className="mb-5">Throughout 21 years of experience in design & creative field I have been learning, providing innovative and unique latest design trends using the latest technologies.</p>
         <p className="mb-10">To achieve your business goals, great product, or web application, improvements in user experience, improvements of page layouts,  and to improve scalability of  user interfaces across all the devices please connect with me.</p>
         <Button btnlink='contact' btnstyle='btn-primary' label='CONTACT' />
@@ -57,7 +57,7 @@ const Skills = () => {
     <FadeInSection>
     <div className="color-bg blue py-14 text-center">
       <div className="container">
-        <h3 className="uppercase text-white text-3xl md:text-4xl my-10"><strong>Consistency <span className="text-black">&</span> Excellence</strong></h3>
+        <h3 className="uppercase text-white text-3xl md:text-5xl my-10">Consistency <span className="text-black">&</span> Excellence</h3>
         <p className="text-white px-10 mb-5">All the user-centric web applications focus on the needs, preferences, and behaviors of users throughout the design and development process. This approach ensures that the final product is intuitive, accessible, and highly usable. </p>
         <p className="text-white px-10 mb-10">eCommerce stores use user-centered design to create seamless shopping experiences, leading to higher conversion rates and customer satisfaction, so please connect with me.</p>
         <Button btnlink='works' btnstyle='btn-outline' label='VIEW RECENT WORKS' />
@@ -65,7 +65,7 @@ const Skills = () => {
       <div className="slant black top"></div>
     </div>
     </FadeInSection>
-    <div className="mb-50">&nbsp;</div>
+    <div className="min-h-28">&nbsp;</div>
     </>
   );
 }

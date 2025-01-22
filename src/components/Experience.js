@@ -9,7 +9,7 @@ const Patrons = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
-        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><strong>Employer - <span className="text-yellow">Employee</span></strong></h2>
+        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10">Employer - <span className="text-yellow">Employee</span></h2>
           <p className="px-10 md:px-20 mb-10">To my employers and clients, thank you for your support, collaboration, and shared vision over the years. To all clients who have supported me and my work, thank you so much for your trust, your business, and your love. And to all colleagues and friends, thank you for supporting me, allowing me to evolve and reinvent myself in new learning, and for encouraging clients to trust in me and my work.</p>
           <p className="px-10 md:px-20 mb-10">Building a strong bond between customers and employers is essential for long-term success and loyalty. Customer satisfaction is a crucial aspect of any business especially in design and development.</p>
           <Button btnlink='works' btnstyle='btn-primary' label='VIEW RECENT WORKS' />
@@ -29,7 +29,7 @@ const Patrons = () => {
     <FadeInSection>
     <div className="color-bg yellow py-14 text-center">
       <div className="container">
-        <h3 className="uppercase text-white text-3xl md:text-4xl my-10"><strong>Product Design! Think Me!</strong></h3>
+        <h3 className="uppercase text-white text-3xl md:text-5xl my-10">Product Design! Think Me!</h3>
         <p className="text-white px-10 mb-10">I am actively seeking a dynamic and creative environment where I can contribute significantly. Whether it’s leading a team, driving innovation, or refining user experiences or user interfaces, I am psyched up to add value and make a lasting impact.</p>
         <Button btnlink='contact' btnstyle='btn-outline' label='CONTACT' />
       </div>

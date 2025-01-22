@@ -49,7 +49,7 @@ const Home = () => {
     <div className="container">
       <div className="text-center mt-5 px-10">
         <p className="text-gray-500">I am <span className="text-white">Peera Shaik</span>, passionate user interface designer and creative <span className="text-white">Web, App &amp; Brand</span> designer.</p>
-        <h1 className="hero-text my-5 text-6xl md:text-8xl">SOLID 21 YEARS<br /> OF EXPERIENCE</h1>
+        <h1 className="hero-text my-5 text-4xl md:text-8xl">SOLID 21 YEARS<br /> OF EXPERIENCE</h1>
         <p>Let's build a client Satisfactory - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
       </div>
     </div>
@@ -85,7 +85,7 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-32">
-        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><strong><span className="inline-block text-green">Pixel Perfect</span> Wins</strong></h2>
+        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-green">Pixel Perfect</span> Wins</h2>
         <p className="px-10 mb-10">I have also become a highly valued user interface designer with 21 years of IT industry experience. I am known to push the boundaries of pixel perfect design creations with my keen eyes for details and create interfaces with emerging ideas that result cross browser compatible layouts.</p>
         <Button btnlink='skills' btnstyle='btn-primary' label='DESIGN THEME-ING' />
       </div>
@@ -125,7 +125,7 @@ const Home = () => {
     <FadeInSection>
     <div className="color-bg green py-14 text-center">
       <div className="container">
-        <h3 className="uppercase text-white text-3xl md:text-4xl my-10"><strong>CLIENTS TRUST IN QUALITY</strong></h3>
+        <h3 className="uppercase text-white text-3xl md:text-5xl my-10">CLIENTS TRUST IN QUALITY</h3>
         <div className="fill-white shape-right-slant"></div>
         <p className="text-white px-10 mb-10">Having received over 100 esteemed, industry leading accolades my client work has consistently achieved excellence and innovation in the ever-evolving world of digital design. These recognitions not only affirm my commitment to pushing creative boundaries but also underscore the unwavering dedication to delivering cutting-edge solutions.</p>
         <Button btnlink='works' btnstyle='btn-outline' label='VIEW RECENT WORKS' />
@@ -136,15 +136,15 @@ const Home = () => {
     <div className="cards empty py-10">
       <div className="container">
       <div className="grid md:grid-cols-3 md:gap-20">
-        <div className="card shadow text-center my-4 md:my-10 p-10">
+        <div className="card text-center my-4 md:my-10 p-10">
             <h4>INTERACTION DESIGN</h4>
             <p>Being familiar with best practices for interaction design between a user and the product significantly shapes the user experience.</p>
         </div>
-        <div className="card shadow text-center my-4 md:my-10 p-10">
+        <div className="card text-center my-4 md:my-10 p-10">
             <h4>USABILITY TESTING</h4>
             <p>Observing users interactions across a digital product to identify user pain points, usability issues, and areas for user interface improvement.</p>
         </div>
-        <div className="card shadow text-center my-4 md:my-10 p-10">
+        <div className="card text-center my-4 md:my-10 p-10">
             <h4>PROBLEM SOLVING</h4>
             <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
         </div>
