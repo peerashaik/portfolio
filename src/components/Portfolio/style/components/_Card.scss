@@ -1,0 +1,35 @@
+.Card {
+  width: 100%;
+  position: relative;
+  display: grid; //warning - verify browsers support
+  overflow: hidden;
+  opacity: 1;
+  transition: $card-transition-type-a;
+
+
+  &:hover {
+    transform: $card-hover-scale;
+    box-shadow: $card-box-shadow;
+    z-index: 2;
+    overflow: initial;
+  }
+
+  .Card__details {
+    @include absolute(0, 0, initial, initial);
+    display: flex;
+    z-index: 1;
+
+    > div {
+      display: flex;
+      align-items: center;
+      margin: $card-details-div-margin;
+      padding: $card-details-div-padding;
+      border-radius: $card-details-border-radius;
+    }
+
+    .material-icons {
+      margin-right: 5px;
+    }
+  }
+
+}

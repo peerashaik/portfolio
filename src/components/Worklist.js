@@ -182,14 +182,14 @@ export default function List() {
     
     <div className="item w-full md:w-5/12" key={work.id}>
       <div className="img-wrapper">
-          <i className="logo"></i>
-          <a href={work.url} target="_blank" rel="noreferrer">
-            <img src={getImage(work)} alt={work.name} title={work.name} />
-          </a>
+        <i className="logo"></i>
+        <a href={work.url} target="_blank" rel="noreferrer">
+          <img src={getImage(work)} alt={work.name} title={work.name} />
+        </a>
       </div>
       <h2 className="text-white mt-10 mb-2 relative">{work.title}</h2>
-          <p className="mb-5 text-sm">{work.theme}</p>
-          <span className="inline bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">{work.framework}</span>
+      <p className="mb-5 text-sm">{work.theme}</p>
+      <span className="inline bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">{work.framework}</span>
     </div>
 
   );

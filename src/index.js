@@ -5,6 +5,7 @@ import './css/styles.css';
 import './css/hero-banner.css';
 import { HashRouter } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
+import registerServiceWorker from './registerServiceWorker';
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
@@ -14,3 +15,4 @@ root.render(
     <App />
   </HashRouter>
 );
+registerServiceWorker();

@@ -30,7 +30,7 @@ const Works = () => {
       <div className="text-center my-32 px-10">
         <h2 className="text-4xl md:text-5xl text-center my-10">Employer - Customer - <span className="inline-block text-pink">Bonding</span></h2>
         <p className="mb-10">Building a strong bond between customers and employers is essential for long-term success and loyalty. Customer satisfaction is a crucial aspect of any business, especially in design and development.</p>
-        <Button btnlink='patrons' btnstyle='btn-primary' label='ALL MY EMPLOYERS' />
+        <Button btnlink='experience' btnstyle='btn-primary' label='ALL MY EMPLOYERS' />
       </div>
     </div>
     </FadeInSection>
