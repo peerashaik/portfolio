@@ -695,6 +695,14 @@ input[type="submit"] {
     right: -15%;
 }
 
+.my-work-list {
+  &:hover {
+    .item:not(:hover) {
+      opacity: .5;
+    }
+  }
+}
+
 .my-work-list .img-wrapper:hover i,
 .my-work-list .img-wrapper:focus i {
     border: 50px solid var(--black);
