@@ -171,7 +171,7 @@ export const worksData = [{
 
 export function getImage(work) {
   return (
-    '../../src/assets/works/' +
+    'https://peerashaik.github.io/cdn/works/' +
     work.image +
     '.png'
   );

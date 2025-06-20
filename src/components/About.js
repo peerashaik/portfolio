@@ -9,7 +9,7 @@ const About = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
-        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-red">Design</span> - Development</h2>
+        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-red">Design</span> &amp; Development</h2>
         <div className="px-10">
           <p className="mb-5">Sofar in the journey of 21 years of experience in Web design & Web developmentI have been providing clients, from all around the world, with the most innovative and unique user interfaces using the latest technologies.</p>
           <p className="mb-10">I have also become a highly respected UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details and create interfaces that make an impact on visitor count.</p>
@@ -43,7 +43,7 @@ const About = () => {
     <div className="container">
       <div className="text-center">
         <h2 className="content-heading relative text-4xl md:text-5xl text-center mb-10"><strong>Find <span className="inline-block text-red">Me!</span></strong> <i className="bi bi-bar-chart-fill"></i></h2>
-        <p className="px-10">It’s great to have some downtime! Passionate for web design and development, I might enjoy activities that both relax and inspire me.</p>
+        <p className="px-10 mb-10">It’s great expereince so far! Passionate for web design and development, I always enjoy challenges that both inspire and relax me!</p>
       </div>
       <div className="key-skills px-10">
         <ul>
