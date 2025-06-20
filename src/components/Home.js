@@ -100,7 +100,7 @@ const Home = () => {
           <div className="img-wrapper">
               <i className="logo"></i>
               <a href="https://vita4you.gr" target="_blank" rel="noreferrer">
-                <img src={require("../../src/images/works/vita4you.png")} loading="lazy" alt="Vita4you" title="Vita4you" />
+                <img src={require("../../src/assets/works/vita4you.png")} loading="lazy" alt="Vita4you" title="Vita4you" />
               </a>
           </div>
           <h2 className="text-white mt-10 mb-2 relative">Health Care Product Redesign and Customization</h2>
@@ -111,7 +111,7 @@ const Home = () => {
           <div className="img-wrapper">
               <i className="logo"></i>
               <a href="https://mynpp.com" target="_blank" rel="noreferrer">
-                <img src={require('../../src/images/works/mynpp.png')} loading="lazy" alt="Mynpp" title="Mynpp" />
+                <img src={require('../../src/assets/works/mynpp.png')} loading="lazy" alt="Mynpp" title="Mynpp" />
               </a>
           </div>
           <h2 className="text-white mt-10 mb-2 relative">Purchasing partner application design and integration</h2>
