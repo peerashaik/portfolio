@@ -1,19 +1,38 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d463d048.css",
-    "main.js": "/portfolio/static/js/main.6ee5b489.js",
+    "main.js": "/portfolio/static/js/main.1a132cad.js",
+    "static/media/nlfisher.png": "/portfolio/static/media/nlfisher.ee4bca8f8aa4b2306137.png",
     "static/media/vita4you.png": "/portfolio/static/media/vita4you.b49c66726b6ef46a1d76.png",
     "static/media/hero-banner1.jpg": "/portfolio/static/media/hero-banner1.5a8b88489e5a0b8194ca.jpg",
+    "static/media/russelhob.png": "/portfolio/static/media/russelhob.0f2f426972290b95cab3.png",
+    "static/media/magna.png": "/portfolio/static/media/magna.8c3ccee33b964f50ec1d.png",
     "static/media/hero-banner5.jpg": "/portfolio/static/media/hero-banner5.622008656a089d82d8df.jpg",
+    "static/media/tellofy.png": "/portfolio/static/media/tellofy.92544d6c0399bf466262.png",
+    "static/media/invopak.png": "/portfolio/static/media/invopak.56862334d2e39a5eb6b7.png",
+    "static/media/eliobay.png": "/portfolio/static/media/eliobay.0597a1938ba17860984b.png",
+    "static/media/exercise.png": "/portfolio/static/media/exercise.aaeecf7b3d809e241d8e.png",
+    "static/media/bainland.png": "/portfolio/static/media/bainland.4fbc6be17c2fc439e119.png",
+    "static/media/docitt.png": "/portfolio/static/media/docitt.062771330a31e437bd80.png",
+    "static/media/faye.png": "/portfolio/static/media/faye.7bb5ae546c4d6f17e20f.png",
+    "static/media/iniala.png": "/portfolio/static/media/iniala.7bc61f72d07bc438c178.png",
     "static/media/hero-banner2.jpg": "/portfolio/static/media/hero-banner2.c437deb2146b41dea4a6.jpg",
+    "static/media/leaf.png": "/portfolio/static/media/leaf.18da85afe7ded72216eb.png",
+    "static/media/startupwind.png": "/portfolio/static/media/startupwind.002ac3fe93989e1021fb.png",
+    "static/media/shopse.png": "/portfolio/static/media/shopse.ed44ff9432ff2d4d13dd.png",
+    "static/media/camlab.png": "/portfolio/static/media/camlab.90ffca89130437f126d0.png",
+    "static/media/corporatecare.png": "/portfolio/static/media/corporatecare.efb693b306d4852d3119.png",
     "static/media/hero-banner4.jpeg": "/portfolio/static/media/hero-banner4.54a8528d5c6752ef0cb8.jpeg",
+    "static/media/hardwin.png": "/portfolio/static/media/hardwin.e5b380033cfac2721c9e.png",
     "static/media/mynpp.png": "/portfolio/static/media/mynpp.a38f6b604d7d1a380416.png",
+    "static/media/powertools.png": "/portfolio/static/media/powertools.460c31b5f1ee2ad710da.png",
+    "static/media/surecopy.png": "/portfolio/static/media/surecopy.c830dd26b75aefc13a0b.png",
     "index.html": "/portfolio/index.html",
     "main.d463d048.css.map": "/portfolio/static/css/main.d463d048.css.map",
-    "main.6ee5b489.js.map": "/portfolio/static/js/main.6ee5b489.js.map"
+    "main.1a132cad.js.map": "/portfolio/static/js/main.1a132cad.js.map"
   },
   "entrypoints": [
     "static/css/main.d463d048.css",
-    "static/js/main.6ee5b489.js"
+    "static/js/main.1a132cad.js"
   ]
 }
