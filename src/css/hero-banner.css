@@ -14,19 +14,19 @@
 }
 
 .hero-banner.about .pic {
-    background-image: url('../images/hero-banner2.jpg');
+    background-image: url('../assets/hero-banner2.jpg');
 }
 
 .hero-banner.contact .pic {
-    background-image: url('../images/hero-banner5.jpg');
+    background-image: url('../assets/hero-banner5.jpg');
 }
 
 .hero-banner.skills .pic {
-    background-image: url('../images/hero-banner1.jpg');
+    background-image: url('../assets/hero-banner1.jpg');
 }
 
 .hero-banner.experience .pic {
-    background-image: url('../images/hero-banner4.jpeg');
+    background-image: url('../assets/hero-banner4.jpeg');
 }
 
 .hero-banner .overlay {

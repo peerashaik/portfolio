@@ -1,7 +1,7 @@
 {
-  "name": "ui",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://peerashaik.github.io/ui/",
+  "homepage": "https://peerashaik.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
