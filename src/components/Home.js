@@ -85,7 +85,7 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-32">
-        <h2 className="content-heading relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-green">Pixel Perfect</span> Wins</h2>
+        <h2 className="relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-green">Pixel Perfect</span> Wins</h2>
         <p className="px-10 mb-10">I have also become a highly valued user interface designer with 21 years of IT industry experience. I am known to push the boundaries of pixel perfect design creations with my keen eyes for details and create interfaces with emerging ideas that result cross browser compatible layouts.</p>
         <Button btnlink='skills' btnstyle='btn-primary' label='DESIGN THEME-ING' />
       </div>

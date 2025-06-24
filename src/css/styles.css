@@ -21,7 +21,7 @@
     --yellow: #F3C623;
     --water: #08C2FF;
     --green: #0ed08a;
-    --pink: #ff005e;
+    --pink: #ff4c37;
     --purple: #7A1CAC;
 }
 
@@ -520,28 +520,6 @@ input[type="submit"] {
     color: var(--white);
 }
 
-.content-heading {
-    &:before {
-        display: none;
-        content: '';
-        height: 1px;
-        width: 100%;
-        background: -moz-radial-gradient(center, ellipse cover, #000 25%, #cecece 100%);
-        background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(25%, #000), color-stop(100%, #cecece));
-        background: -webkit-radial-gradient(center, ellipse cover, #000 25%, #cecece 100%);
-        background: -ms-radial-gradient(center, ellipse cover, #000 25%, #cecece 100%);
-        background: radial-gradient(ellipse at center, #000 25%, #cecece 100%);
-        position: absolute;
-        top: 54%;
-        z-index: -1;
-    }
-
-    i {
-        position: relative;
-        z-index: 9;
-    }
-}
-
 /*Home Banners*/
 .hero-text {
     background: -webkit-linear-gradient(313deg, var(--pink), var(--pink), var(--grey-dark), var(--grey-dark));
@@ -800,8 +778,8 @@ input[type="submit"] {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'heliosextbold';
-            font-size: 36px;
+            font-size: 32px;
+            font-weight: bold;
             margin: 0;
             position: absolute;
             top: 0;
@@ -813,6 +791,7 @@ input[type="submit"] {
     }
 
     h3 {
+        font-size: 22px;
         margin: 0 30px 0 0;
 
         span {
@@ -891,10 +870,6 @@ input[type="submit"] {
 }
 
 @media (min-width: 768px) {
-    .content-heading:before {
-        display: block;
-    }
-
     .my-work-list {
         .item:nth-child(odd) {
             margin-top: 60px;
@@ -920,11 +895,12 @@ input[type="submit"] {
             padding: 50px;
 
             i.num {
-                font-size: 42px;
+                font-size: 38px;
             }
         }
 
         h3 {
+            font-size: 28px;
             margin: 0 0 15px;
 
             span {
