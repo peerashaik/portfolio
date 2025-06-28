@@ -94,7 +94,6 @@ const Home = () => {
 
     <FadeInSection>
     <div className="container">
-      <p className="text-white font-light text-2xl">Selected Work</p>
       <div className="my-work-list grid md:grid-cols-2 md:gap-20 mb-10 py-5">
         <div className="item">
           <div className="img-wrapper">
@@ -193,8 +192,8 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="key-skills mb-20">
-        <h2 className="text-center text-green my-28">A journey of Commitment towards a learning process!</h2>
-        <h3 className="text-center mb-5"><strong>KEY SKILLS <span className="text-green">&</span> TECHNOLOGIES</strong></h3>
+        <h2 className="text-center text-green my-28">A journey of Commitment in a learning process!</h2>
+        <h3 className="text-center mb-5"><strong>SKILLS <span className="text-green">&</span> TECHNOLOGIES</strong></h3>
         <div className="grid md:grid-cols-2 md:gap-20">
         <div>
           <ul>
