@@ -10,7 +10,7 @@ const Footer = (props) => {
     </div>
 
     <div className="container relative">
-      <ul className="nav footerNav hide relative md:fixed pb-5 md:pb-0 flex flex-wrap justify-center items-center">
+      <ul className="nav footerNav hide relative md:fixed pb-5 md:pb-3 flex flex-wrap justify-center items-center">
         <li className="nav-item"><NavLink to="/about" className="nav-link link">About</NavLink></li>
         <li className="nav-item"><NavLink to="/skills" className="nav-link link">Skills</NavLink></li>
         <li className="nav-item"><NavLink to="/experience" className="nav-link link">Experience</NavLink></li>

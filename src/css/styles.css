@@ -317,7 +317,7 @@ input[type="submit"] {
     display: block;
     position: fixed;
     top: 40px;
-    right: 40px;
+    right: 20px;
     z-index: 99;
     -webkit-user-select: none;
     user-select: none;
@@ -860,6 +860,10 @@ input[type="submit"] {
 }
 
 @media (min-width: 768px) {
+    .navToggle {
+        right: 40px;
+    }
+    
     .my-work-list {
         .item:nth-child(odd) {
             margin-top: 60px;

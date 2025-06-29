@@ -1,7 +1,6 @@
 import React from "react";
 import FadeInSection from './FadeInSection';
 import Button from './Button';
-// import Aboutpic from './../assets/images/hero-banner2.jpeg';
 
 const About = () => {
   return (
@@ -11,10 +10,10 @@ const About = () => {
       <div className="text-center my-20">
         <h2 className="relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-red">Design</span> &amp; Development</h2>
         <div className="px-10">
-          <p className="mb-5">Crazy user interface designer and developer, I am providing services to my organizations, clients from all around the world with the most innovative and unique user interfaces using the latest technologies.</p>
+          <p className="mb-5">Crazy user interface designer and developer, and I am not just pushing pixels which crafting experiences that resonate globally. Being stack of HTML5, CSS3, ReactJS, Magento2, and beyond, my creativity is clearly fueled by a mastery of both design and code.</p>
           <p>Develop highly interactive Frontend User Interfaces for your web and mobile applications.</p>
           <p className="mb-10">I have also become a highly recommended UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details.</p>
-          <Button btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
+          <Button className="nav-link link" btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
         </div>
       </div>
     </div>

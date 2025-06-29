@@ -125,7 +125,7 @@ const Home = () => {
     <FadeInSection>
     <div className="color-bg green py-14 text-center">
       <div className="container">
-        <h3 className="uppercase text-white text-3xl md:text-5xl my-10">CLIENTS TRUST IN QUALITY</h3>
+        <h3 className="uppercase text-white text-3xl md:text-5xl my-10">CLIENTS - TRUST IN QUALITY</h3>
         <div className="fill-white shape-right-slant"></div>
         <p className="text-white px-10 mb-10">Having received over 100 esteemed, industry leading accolades my client work has consistently achieved excellence and innovation in the ever-evolving world of digital design. These recognitions not only affirm my commitment to pushing creative boundaries but also underscore the unwavering dedication to delivering cutting-edge solutions.</p>
         <Button btnlink='works' btnstyle='btn-outline' label='VIEW RECENT WORKS' />
