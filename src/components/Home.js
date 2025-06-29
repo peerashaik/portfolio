@@ -48,9 +48,10 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center mt-5 px-10">
-        <p className="text-gray-500">I am <span className="text-white">Peera Shaik</span>, passionate user interface designer and creative <span className="text-white">Web, App &amp; Brand</span> designer.</p>
+        <p className="text-gray-500">
+        Hello, This is <span className="text-pink">PEERA SHAIK</span>, I'm a professional user interface designer.</p>
         <h1 className="hero-text my-5 text-4xl md:text-8xl">SOLID 21 YEARS<br /> OF EXPERIENCE</h1>
-        <p>Let's build a client Satisfactory - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
+        <p>Let's create a successful client journey - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
       </div>
     </div>
     </FadeInSection>
@@ -58,26 +59,26 @@ const Home = () => {
     <div className="banners overflow-hidden flex flex-wrap md:flex-nowrap gap-3.5 mt-12">
       <div className="color-bg red flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
-        <h2><span className="text-black">User<br/>Interface</span><br/><span className="text-white">Design</span></h2>
-        <h4>User Journey | Research | User Flow</h4>
+          <h2><span className="text-black">User</span><br/><span className="text-white">Interface</span></h2>
+          <h4>User Research | User Journey | User Flow</h4>
         </div>
       </div>
       <div className="color-bg green flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
-        <h2><span className="text-yellow">CSS3</span> <span className="text-white">Style</span></h2>
-        <h4>Color | Theme | Beautify | Typography</h4>
+          <h2><span className="text-yellow">CSS3</span> <span className="text-white">Style</span></h2>
+          <h4>Brand | Color | Typography | Vision</h4>
         </div>
       </div>
       <div className="color-bg navy-blue flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
-        <h2><span className="text-white">HTML</span><span className="text-green">5</span></h2>
-        <h4>Layout | Content | Standards</h4>
+          <h2><span className="text-white">HTML</span><span className="text-green">5</span></h2>
+          <h4>Layout | Content | Standards</h4>
         </div>
       </div>  
       <div className="color-bg purple flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
-        <h2><span className="text-yellow">Javascript</span><br/><span className="text-white">jQuery</span></h2>
-        <h4>User Intercation | DOM Manipulation</h4>
+          <h2><span className="text-yellow">Javascript</span><br/><span className="text-white">jQuery</span></h2>
+          <h4>User Intercation | DOM Manipulation</h4>
         </div>
       </div>
     </div>
@@ -86,7 +87,7 @@ const Home = () => {
     <div className="container">
       <div className="text-center my-32">
         <h2 className="relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-green">Pixel Perfect</span> Wins</h2>
-        <p className="px-10 mb-10">I have also become a highly valued user interface designer with 21 years of IT industry experience. I am known to push the boundaries of pixel perfect design creations with my keen eyes for details and create interfaces with emerging ideas that result cross browser compatible layouts.</p>
+        <p className="px-10 mb-10">I have also become a highly valued user interface designer. I am known to push the boundaries of pixel perfect design creations with my keen eyes for details and create interfaces with emerging ideas that result cross browser compatible layouts.</p>
         <Button btnlink='skills' btnstyle='btn-primary' label='DESIGN THEME-ING' />
       </div>
     </div>
@@ -136,16 +137,16 @@ const Home = () => {
       <div className="container">
       <div className="grid md:grid-cols-3 md:gap-20">
         <div className="card text-center my-4 md:my-10 p-10">
-            <h4>INTERACTION DESIGN</h4>
-            <p>Being familiar with best practices for interaction design between a user and the product significantly shapes the user experience.</p>
+          <h4>INTERACTION DESIGN</h4>
+          <p>Being familiar with best practices for interaction design between a user and the product significantly shapes the user experience.</p>
         </div>
         <div className="card text-center my-4 md:my-10 p-10">
-            <h4>USABILITY TESTING</h4>
-            <p>Observing users interactions across a digital product to identify user pain points, usability issues, and areas for user interface improvement.</p>
+          <h4>USABILITY TESTING</h4>
+          <p>Observing users interactions across a digital product to identify user pain points, usability issues, and areas for user interface improvement.</p>
         </div>
         <div className="card text-center my-4 md:my-10 p-10">
-            <h4>PROBLEM SOLVING</h4>
-            <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
+          <h4>PROBLEM SOLVING</h4>
+          <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
         </div>
       </div>
       </div>
@@ -192,12 +193,12 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="key-skills mb-20">
-        <h2 className="text-center text-green my-28">A journey of Commitment in a learning process!</h2>
+        <h2 className="text-center text-green my-28">A journey of learning process!</h2>
         <h3 className="text-center mb-5"><strong>SKILLS <span className="text-green">&</span> TECHNOLOGIES</strong></h3>
         <div className="grid md:grid-cols-2 md:gap-20">
         <div>
           <ul>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Expertise to create a user interface designs using Adobe Creative Suite Photoshop and Illustrator, and Figma.</li>
+            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Expertise to create a user interface designs using Figma, Adobe XD, Webflow, Canva.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>HTML5 and XHTML:</strong> Adept at crafting semantic and accessible web pages, ensuring compatibility across devices and browsers.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>CSS3 (Less and Sass):</strong> Well-versed in using CSS preprocessors to create modular, maintainable stylesheets.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Responsive Web Design:</strong> Committed to delivering responsive and mobile-friendly designs for optimal user experiences.</li>
@@ -209,13 +210,13 @@ const Home = () => {
         </div>
         <div>
           <ul>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Magento2 Frontend:</strong> Proficient in developing custom themes, templates, and layouts using Magento’s frontend architecture.</li>
+            <li><i className="bi bi-record-circle-fill"></i><strong>eCommerce Frontend:</strong> Proficient in developing custom themes, templates, and layouts using Magento2, Shopify, WordPress frontend architecture.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Version Control (Git):</strong> Skilled in collaborating with development teams using Git for code versioning.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Performance Optimization:</strong> Dedicated to improving website speed, minimizing HTTP requests, and optimizing assets.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Cross-Browser Compatibility:</strong> Ensuring seamless rendering across various browsers and devices.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Adobe XD, Figma, Sketch, Photoshop, Illustrator.</li>
+            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Figma, Adobe XD,  Sketch, Photoshop, Illustrator.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Programming Skills:</strong> HTML5, XHTML, XML, CSS3(Less & Sass), Tailwind CSS, Bootstrap, Responsive Web Design, Semantic UI, W3c Standards, PHP, mySQL, JavaScript, jQuery, React JS, WordPress UI, Magento2 UI, Shopify UI, October CMS.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Communication and Collaboration:</strong> I consider both negative and positive feedback towards the product success and I am sure a good communication and collaboration with all the team/stakeholders will result in a smooth function of successive products.</li>
+            <li><i className="bi bi-record-circle-fill"></i><strong>Communication and Collaboration:</strong>a great communication or collaboration will result a successful product.</li>
           </ul>
         </div>
         </div>

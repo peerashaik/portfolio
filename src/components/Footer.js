@@ -32,7 +32,7 @@ const Footer = (props) => {
     </ul>
 
     <div className="copyRight hide relative md:fixed bottom-3 text-xs text-gray-600 text-center w-full md:w-auto">
-        © <span className='date'></span> Shaik's Web. All rights reserved.
+        © <span className='date'></span> ShaikPeera. All rights reserved.
     </div>
     
     <NavLink to="#" className="backtoTop hide fixed right-4 md:right-5"><i className="bi bi-arrow-up-circle-fill"></i></NavLink>
