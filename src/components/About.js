@@ -21,7 +21,7 @@ const About = () => {
 
     <div className="hero-banner about">
       <div className="headings flex justify-center items-center flex-col absolute z-10 w-full h-full">
-        <h2 className="text-center">A DESIGN THINK?<br /><span className="inline text-red ms-2">THINK</span> ME!</h2>
+        <h2 className="text-center">HAVE A PROJECT IN MIND?<br /><span className="inline text-red ms-2">LET'S DISCUSS!</span> ME!</h2>
       </div>
       <div className="overlay"></div>
       <div className="pic"></div>
