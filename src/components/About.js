@@ -22,6 +22,7 @@ const About = () => {
     <div className="hero-banner about">
       <div className="headings flex justify-center items-center flex-col absolute z-10 w-full h-full">
         <h2 className="text-center">HAVE A PROJECT IN MIND?<br /><span className="inline text-red ms-2">LET'S DISCUSS!</span> ME!</h2>
+        <Button className="nav-link link" btnlink='asmeals' btnstyle='btn-primary' label='MY SHOPIFY APP' />
       </div>
       <div className="overlay"></div>
       <div className="pic"></div>
