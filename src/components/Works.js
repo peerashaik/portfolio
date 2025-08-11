@@ -22,7 +22,7 @@ const Works = () => {
         <div className="my-work-list flex flex-wrap justify-evenly gap-12">
           
           {projects.map(work => (
-            <div className="item w-full md:w-5/12" key={work.id}>
+            <div className="item mb-20 md:mb-0 w-full md:w-5/12" key={work.id}>
               <div className="img-wrapper">
                 <i className="logo"></i>
                 <a href={work.url} target="_blank" rel="noreferrer">
@@ -31,7 +31,7 @@ const Works = () => {
               </div>
               <h2 className="text-white mt-10 mb-2 relative">{work.title}</h2>
               <p className="mb-5 text-sm">{work.theme}</p>
-              <span className="inline bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">{work.framework}</span>
+              <span className="bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">{work.framework}</span>
             </div>
           ))
           }

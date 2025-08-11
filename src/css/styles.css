@@ -99,7 +99,6 @@ input[type="submit"] {
     border-radius: 2px;
     display: inline-block;
     padding: 15px 40px;
-    min-width: 250px;
     transition: all .9s ease;
     position: relative;
     z-index: 1;
@@ -732,9 +731,10 @@ input[type="submit"] {
         }
 
         span {
+            display: inline-block;
             border-radius: 15px;
             font-size: 12px;
-            padding: 5px 20px;
+            padding: 5px 14px;
             margin: 5px 5px 5px 0;
         }
     }

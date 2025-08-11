@@ -96,7 +96,7 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="my-work-list grid md:grid-cols-2 md:gap-20 mb-10 py-5">
-        <div className="item">
+        <div className="item mb-20 md:mb-0">
           <div className="img-wrapper">
               <i className="logo"></i>
               <a href="https://vita4you.gr" target="_blank" rel="noreferrer">
@@ -105,9 +105,9 @@ const Home = () => {
           </div>
           <h2 className="text-white mt-10 mb-2 relative">Health Care Product Redesign and Customization</h2>
           <p className="mb-5 text-sm">A complete new design integration of a ecommerce application</p>
-          <span className="inline bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">Magento2 UI</span>
+          <span className="bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">Magento2 UI</span>
         </div>
-        <div className="item">
+        <div className="item mb-20 md:mb-0">
           <div className="img-wrapper">
               <i className="logo"></i>
               <a href="https://mynpp.com" target="_blank" rel="noreferrer">
@@ -116,7 +116,7 @@ const Home = () => {
           </div>
           <h2 className="text-white mt-10 mb-2 relative">Purchasing partner application design and integration</h2>
           <p className="mb-5 text-sm">Designing a custom theme of a Wordpress application</p>
-          <span className="inline bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">WordPress UI</span>
+          <span className="bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">WordPress UI</span>
         </div>
       </div>
     </div>
