@@ -2,10 +2,10 @@ import React from "react";
 
 const Resume = () => {
     const onButtonClick = () => {
-        const pdfUrl = "User Interface Designer - ShaikPeera.pdf";
+        const pdfUrl = "User Interface Designer - Shaik Peera.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "User Interface Designer - ShaikPeera.pdf";
+        link.download = "User Interface Designer - Shaik Peera.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
