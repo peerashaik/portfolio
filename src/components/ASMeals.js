@@ -10,7 +10,7 @@ const ASMeals = () => {
     <shopify-store store-domain="zstorefoods.myshopify.com" public-access-token="d06ff6913da3382fa953c37cb46dab50" country="US" language="en">
       <div className="container">
         <main className="grid">
-          <shopify-context type="collection" handle="the-collection-man">
+          <shopify-context  type="collection" handle="the-collection-man">
             <template>
               <div className="card">
                 <shopify-media query="product.selected0rFirstAvalableVariant.image" width="300" height="300"></shopify-media>
