@@ -558,6 +558,7 @@ input[type="submit"] {
     h4 {
         color: var(--black);
         font-size: 2.2rem;
+        line-height: 40px;
         letter-spacing: -1px;
         text-transform: uppercase;
         margin: 0 0 20px;
@@ -565,7 +566,6 @@ input[type="submit"] {
 
     p {
         color: var(--black);
-        line-height: 1.5rem;
         margin: 0 0 20px;
     }
 
@@ -607,15 +607,14 @@ input[type="submit"] {
         .card {
             background: var(--black);
 
-            h4,
-            p {
+            h4 {
                 color: var(--white);
                 font-size: 2.2rem;
+                line-height: 40px;
             }
 
             p {
-                font-size: 2rem;
-                line-height: 2.2rem;
+                color: var(--white);
             }
 
             &:hover h4 {
