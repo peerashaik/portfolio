@@ -8,11 +8,11 @@ import styled from 'styled-components';
 const LRScroller = styled.div`
   li {
     background: var(--pink);
-    border-radius: 10px;
+    border-radius: 100px;
     color: var(--white) !important;
-    font-size: 12px;
-    padding: 5px 30px;
-    margin: 0 8px;
+    font-size: 22px;
+    padding: 20px 30px;
+    margin: 0 20px;
   }
 
   &[data-animated="true"] {
@@ -51,7 +51,7 @@ const Home = () => {
         <p className="text-gray-500">
         Hello, This is <span className="text-pink">PEERA SHAIK</span>, I'm a professional user interface designer.</p>
         <h1 className="hero-text my-5 text-4xl md:text-8xl">SOLID 21 YEARS<br /> OF EXPERIENCE</h1>
-        <p>Let's create a successful client journey - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
+        <p>Let's create a successful journey - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
       </div>
     </div>
     </FadeInSection>
@@ -87,7 +87,7 @@ const Home = () => {
     <div className="container">
       <div className="text-center my-32">
         <h2 className="relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-green">Pixel Perfect</span> Wins</h2>
-        <p className="px-10 mb-10">I have also become a highly valued user interface designer. I am known to push the boundaries of pixel perfect design creations with my keen eyes for details and create interfaces with emerging ideas that result cross browser compatible layouts.</p>
+        <p className="px-10 mb-10">I’ve become a highly valued user interface designer, known for pushing the boundaries of pixel-perfect design implementation. With a keen eye for detail, I craft interfaces driven by emerging ideas that result in cross-browser compatible layouts and seamless user experiences.</p>
         <Button btnlink='skills' btnstyle='btn-primary' label='DESIGN THEME-ING' />
       </div>
     </div>
@@ -127,7 +127,7 @@ const Home = () => {
       <div className="container">
         <h3 className="uppercase text-white text-3xl md:text-5xl my-10">CLIENTS - TRUST IN QUALITY</h3>
         <div className="fill-white shape-right-slant"></div>
-        <p className="text-white px-10 mb-10">Having received over 100 esteemed, industry leading accolades my client work has consistently achieved excellence and innovation in the ever-evolving world of digital design. These recognitions not only affirm my commitment to pushing creative boundaries but also underscore the unwavering dedication to delivering cutting-edge solutions.</p>
+        <p className="text-white px-10 mb-10">Having received over <span className="font-bold text-black text-3xl md:text-6xl">100+</span> esteemed, industry leading accolades my client work has consistently achieved excellence and innovation in the ever-evolving world of digital design. These recognitions not only affirm my commitment to pushing creative boundaries but also underscore the unwavering dedication to delivering cutting-edge solutions.</p>
         <Button btnlink='works' btnstyle='btn-outline' label='VIEW RECENT WORKS' />
       </div>
       <div className="slant light-blue"></div>
@@ -155,7 +155,6 @@ const Home = () => {
 
     <FadeInSection>
     <div className="my-20 grid place-items-center">
-    <div className="container">
       <LRScroller data-animated="true">
         <ul className="scroller-inner">
           <li>UI/UX</li>
@@ -165,6 +164,7 @@ const Home = () => {
           <li>Javascript</li>
           <li>jQuery</li>
           <li>React JS</li>
+          <li>Webflow</li>
           <li>Wordpress UI</li>
           <li>Magento2 UI</li>
           <li>Shopify UI</li>
@@ -180,13 +180,13 @@ const Home = () => {
           <li>Javascript</li>
           <li>jQuery</li>
           <li>React JS</li>
+          <li>Webflow</li>
           <li>Wordpress UI</li>
           <li>Magento2 UI</li>
           <li>Shopify UI</li>
           <li>Web Development</li>
         </ul>
       </LRScroller>
-    </div>
     </div>
     </FadeInSection>
 
