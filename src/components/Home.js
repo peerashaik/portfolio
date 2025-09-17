@@ -154,7 +154,7 @@ const Home = () => {
     </FadeInSection>
 
     <FadeInSection>
-    <div className="my-20 grid place-items-center">
+    <div className="my-20 grid place-items-center overflow-hidden">
       <LRScroller data-animated="true">
         <ul className="scroller-inner">
           <li>UI/UX</li>
