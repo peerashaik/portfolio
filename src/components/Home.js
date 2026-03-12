@@ -50,7 +50,7 @@ const Home = () => {
       <div className="text-center mt-5 px-10">
         <p className="text-gray-500">
         Hello, This is <span className="text-pink">PEERA SHAIK</span>, I'm a professional user interface designer.</p>
-        <h1 className="hero-text my-5 text-4xl md:text-8xl">SOLID 21 YEARS<br /> OF EXPERIENCE</h1>
+        <h1 className="hero-text my-5 text-4xl md:text-8xl">SOLID 23 YEARS<br /> OF EXPERIENCE</h1>
         <p>Let's create a successful journey - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
       </div>
     </div>
@@ -99,23 +99,20 @@ const Home = () => {
         <div className="item mb-20 md:mb-0">
           <div className="img-wrapper">
               <i className="logo"></i>
-              <a href="https://vita4you.gr" target="_blank" rel="noreferrer">
-                <img src={require("../assets/works/vita4you.png")} loading="lazy" alt="Vita4you" title="Vita4you" />
+              <a href="https://traumacleanup.com.au" target="_blank" rel="noreferrer"><img src={require("../assets/works/traumacleanup.png")} loading="lazy" alt="TraumaCleanup" title="TraumaCleanup" />
               </a>
           </div>
-          <h2 className="text-white mt-10 mb-2 relative">Health Care Product Redesign and Customization</h2>
-          <p className="mb-5 text-sm">A complete new design integration of a ecommerce application</p>
-          <span className="bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">Magento2 UI</span>
+          <h2 className="text-white mt-10 mb-2 relative">Trusted Trauma Cleanup Services Company</h2>
+          <p className="mb-5 text-sm">Designed and Developed Elementor theme for their cleaning services</p>
+          <span className="bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">WordPress UI</span>
         </div>
         <div className="item mb-20 md:mb-0">
           <div className="img-wrapper">
               <i className="logo"></i>
-              <a href="https://mynpp.com" target="_blank" rel="noreferrer">
-                <img src={require('../assets/works/mynpp.png')} loading="lazy" alt="Mynpp" title="Mynpp" />
-              </a>
+              <a href="https://hazardaus.com.au" target="_blank" rel="noreferrer"><img src={require('../assets/works/hazardAUS.png')} loading="lazy" alt="HazardAUS" title="HazardAUS" /></a>
           </div>
-          <h2 className="text-white mt-10 mb-2 relative">Purchasing partner application design and integration</h2>
-          <p className="mb-5 text-sm">Designing a custom theme of a Wordpress application</p>
+          <h2 className="text-white mt-10 mb-2 relative">Asbestos &amp; Hazardous Materials Testing Services</h2>
+          <p className="mb-5 text-sm">Designed and Developed Elementor theme for their cleaning services</p>
           <span className="bg-gray-800 text-gray-400">UI Design</span> <span className="inline bg-gray-800 text-gray-400">UI Development</span> <span className="inline bg-gray-800 text-gray-400">WordPress UI</span>
         </div>
       </div>
@@ -127,7 +124,7 @@ const Home = () => {
       <div className="container">
         <h3 className="uppercase text-white text-3xl md:text-5xl my-10">CLIENTS - TRUST IN QUALITY</h3>
         <div className="fill-white shape-right-slant"></div>
-        <p className="text-white px-10 mb-10">Having received over <span className="font-bold text-black text-3xl md:text-6xl">100+</span> esteemed, industry leading accolades my client work has consistently achieved excellence and innovation in the ever-evolving world of digital design. These recognitions not only affirm my commitment to pushing creative boundaries but also underscore the unwavering dedication to delivering cutting-edge solutions.</p>
+        <p className="text-white px-10 mb-10">Having received over <span className="font-bold text-black text-3xl md:text-6xl">200+</span> esteemed, industry leading accolades my client work has consistently achieved excellence and innovation in the ever-evolving world of digital design. These recognitions not only affirm my commitment to pushing creative boundaries but also underscore the unwavering dedication to delivering cutting-edge solutions.</p>
         <Button btnlink='works' btnstyle='btn-outline' label='VIEW RECENT WORKS' />
       </div>
       <div className="slant light-blue"></div>

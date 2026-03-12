@@ -1,6 +1,30 @@
 export const projects = [
 {
   id: 0,
+  name: 'TraumaCleanup',
+  url: 'https://traumacleanup.com.au',
+  image: require('./assets/works/traumacleanup.png'),
+  title: 'Trusted Trauma Cleanup Services Company',
+  theme: 'Designed and developed a website using WordPress and the Elementor page builder, with a focus on SEO, Accessibility, and Core Web Vitals optimization',
+  framework: 'Wordpress UI'
+},{
+  id: 1,
+  name: 'HazardAUS',
+  url: 'https://hazardaus.com.au',
+  image: require('./assets/works/hazardAUS.png'),
+  title: 'Professionals in asbestos testing, hazardous materials testing in Australia',
+  theme: 'Designed and developed a website using WordPress and the Elementor page builder, with a focus on SEO, Accessibility, and Core Web Vitals optimization',
+  framework: 'Wordpress UI'
+},{
+  id: 2,
+  name: 'Forensic Crime Clean',
+  url: 'https://forensiccrimecleaning.com.au',
+  image: require('./assets/works/forensicclean.png'),
+  title: 'Committed to restoring your home or business to a safe and hazard-free condition',
+  theme: 'Designed and developed a website using WordPress and the Elementor page builder, with a focus on SEO, Accessibility, and Core Web Vitals optimization',
+  framework: 'Wordpress UI'
+},{
+  id: 3,
   name: 'Vita4you',
   url: 'https://vita4you.gr',
   image: require('./assets/works/vita4you.png'),
@@ -8,7 +32,7 @@ export const projects = [
   theme: 'A complete new design integration of an ecommerce application',
   framework: 'Magetno2 UI'
 }, {
-  id: 1,
+  id: 4,
   name: 'Bainland',
   url: 'https://bainland.co.uk',
   image: require('./assets/works/bainland.png'),
@@ -16,7 +40,7 @@ export const projects = [
   theme: 'Part of customization, layout corrections and design elements',
   framework: 'Woocommerce'
 }, {
-  id: 2,
+  id: 5,
   name: 'Docitt',
   url: 'https://www.docitt.com',
   image: require('./assets/works/docitt.png'),
@@ -24,7 +48,7 @@ export const projects = [
   theme: 'Involved to design and development of application',
   framework: 'Polymer Library'
 }, {
-  id: 3,
+  id: 6,
   name: 'Invopak',
   url: 'https://invopak.co.uk',
   image: require('./assets/works/invopak.png'),
@@ -32,7 +56,7 @@ export const projects = [
   theme: 'Part of customization and development of magento2 modules',
   framework: 'Magento2'
 }, {
-  id: 4,
+  id: 7,
   name: 'Hardwinsoftware',
   url: 'https://hardwinsoftware.com',
   image: require('./assets/works/hardwin.png'),
@@ -40,7 +64,7 @@ export const projects = [
   theme: 'Designed and developed custom website for it services company',
   framework: 'Custom HTML',
 }, {
-  id: 5,
+  id: 8,
   name: 'Magnahardwoodfloors',
   url: 'https://magnahardwoodfloors.com',
   image: require('./assets/works/magna.png'),
@@ -48,7 +72,7 @@ export const projects = [
   theme: 'Developed a ecommerce web application',
   framework: 'Shopify UI'
 }, {
-  id: 6,
+  id: 9,
   name: 'Camlab',
   url: 'https://camlab.co.uk',
   image: require('./assets/works/camlab.png'),
@@ -56,7 +80,7 @@ export const projects = [
   theme: 'Part of customization and development of magento2 modules',
   framework: 'Magetno2 UI'
 }, {
-  id: 7,
+  id: 10,
   name: 'Startupwind',
   url: 'https://www.startupwind.com',
   image: require('./assets/works/startupwind.png'),
@@ -64,7 +88,7 @@ export const projects = [
   theme: 'Developed custom web application',
   framework: 'Custom PHP'
 }, {
-  id: 8,
+  id: 11,
   name: 'Exercise',
   url: 'https://exercise.co.uk',
   image: require('./assets/works/exercise.png'),
@@ -72,7 +96,7 @@ export const projects = [
   theme: 'Involved to customize the theme and the modules as per customer needs.',
   framework: 'Magetno2 UI'
 }, {
-  id: 9,
+  id: 12,
   name: 'Shop',
   url: 'https://shop.se.com/fr/fr',
   image: require('./assets/works/shopse.png'),
@@ -80,7 +104,7 @@ export const projects = [
   theme: 'Part of customization of Magento2 theme and modules',
   framework: 'Magetno2 UI'
 }, {
-  id: 10,
+  id: 13,
   name: 'Iniala',
   url: 'https://iniala.com',
   image: require('./assets/works/iniala.png'),
@@ -88,7 +112,7 @@ export const projects = [
   theme: 'Designed and developed custom web application',
   framework: 'Custom Development'
 }, {
-  id: 11,
+  id: 14,
   name: 'RussellHobbs',
   url: 'https://uk.russellhobbs.com',
   image: require('./assets/works/russelhob.png'),
@@ -96,7 +120,7 @@ export const projects = [
   theme: 'Part of customization and development of magento2 modules',
   framework: 'Magetno2 UI'
 }, {
-  id: 12,
+  id: 15,
   name: 'ElioBay',
   url: 'https://eliobay.com',
   image: require('./assets/works/eliobay.png'),
@@ -104,7 +128,7 @@ export const projects = [
   theme: 'Designed and developed custom web application',
   framework: 'Custom Application'
 }, {
-  id: 13,
+  id: 16,
   name: 'PowerToolSpares',
   url: 'https://powertoolspares.com',
   image: require('./assets/works/powertools.png'),
@@ -112,7 +136,7 @@ export const projects = [
   theme: 'Designed and developed custom web application',
   framework: 'October CMS'
 }, {
-  id: 14,
+  id: 17,
   name: 'Corporatecaresolutions',
   url: 'https://www.corporatecaresolutions.com/',
   image: require('./assets/works/corporatecare.png'),
@@ -120,7 +144,7 @@ export const projects = [
   theme: 'Designed and developed Wordpress web application',
   framework: 'Wordpress UI'
 }, {
-  id: 15,
+  id: 18,
   name: 'Faye',
   url: 'https://faye.in',
   image: require('./assets/works/faye.png'),
@@ -128,7 +152,7 @@ export const projects = [
   theme: 'Designed and development of magento2 theme and modules',
   framework: 'Shopify UI'
 }, {
-  id: 16,
+  id: 19,
   name: 'Mynpp',
   url: 'https://mynpp.com',
   image: require('./assets/works/mynpp.png'),
@@ -136,7 +160,7 @@ export const projects = [
   theme: 'Designing a custom theme of a Wordpress application',
   framework: 'Wordpress UI'
 }, {
-  id: 17,
+  id: 20,
   name: 'Tellofy',
   url: 'https://tellofy.com',
   image: require('./assets/works/tellofy.png'),
@@ -144,7 +168,7 @@ export const projects = [
   theme: 'Designed and developed custom web application',
   framework: 'Custom Development'
 }, {
-  id: 18,
+  id: 21,
   name: 'Surecopy',
   url: 'https://surecopyladner.com',
   image: require('./assets/works/surecopy.png'),
@@ -152,7 +176,7 @@ export const projects = [
   theme: 'Designed and developed custom web application',
   framework: 'Custom PHP'
 }, {
-  id: 19,
+  id: 22,
   name: 'Nlfisher',
   url: 'https://nlfisher.com',
   image: require('./assets/works/nlfisher.png'),
@@ -160,7 +184,7 @@ export const projects = [
   theme: 'Designed and developed custom web application',
   framework: 'Custom Development'
 }, {
-  id: 20,
+  id: 23,
   name: 'Leaf Studios',
   url: 'https://www.leafstudios.in/',
   image: require('./assets/works/leaf.png'),
