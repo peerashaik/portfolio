@@ -22,9 +22,9 @@ const About = () => {
       <div className="container">
         <div className="text-center">
           <h2>HAVE A PROJECT IN MIND? LET'S DISCUSS! </h2>
-          <h3 className="text-3xl md:text-5xl my-10">An Enthusiastic</h3>
+          <h3 className="text-red text-3xl md:text-5xl my-10">An Enthusiastic</h3>
           <p className="px-10 mb-10">I am an enthusiastic IT industry professional with 21 years of hands-on experience across various roles. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Adobe Magento2 Commerce Frontend Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
-          <Button className="nav-link link" btnlink='experience' btnstyle='btn-black' label='MY EXPERIENCES' />
+          <Button className="nav-link link" btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
         </div>
       </div>
     </FadeInSection>
@@ -33,7 +33,7 @@ const About = () => {
     <div className="mt-20 mb-28">
     <div className="container">
       <div className="text-center">
-        <h2 className="relative text-4xl md:text-5xl text-center mb-10"><strong>Find <span className="inline-block">Me!</span></strong> <i className="bi bi-bar-chart-fill"></i></h2>
+        <h2 className="text-red text-4xl md:text-5xl text-center mb-10">Apart from Desk!</h2>
         <p className="px-10 mb-10">It’s great expereince so far! Passionate for web design and development, I always enjoy challenges that both inspire and relax me!</p>
       </div>
       <div className="key-skills px-10">
@@ -46,7 +46,7 @@ const About = () => {
         </ul>
       </div>
       <div className="mt-16 text-center">
-        <Button btnlink='contact' btnstyle='btn-primary' label='CONTACT' />
+        <Button className="nav-link link" btnlink='contact' btnstyle='btn-primary' label='CONTACT' />
       </div>
     </div>
     </div>

@@ -52,24 +52,12 @@ const Home = () => {
       <div className="cards empty">
         <div className="grid md:grid-cols-3 md:gap-20">
           <div className="card text-center my-2 p-10">
+            <h4>VISUAL DESIGN</h4>
+            <p>Strong visual design skills with expertise in creating user‑friendly, aesthetically consistent interfaces.</p>
+          </div>
+          <div className="card text-center my-2 p-10">
             <h4>INTERACTION DESIGN</h4>
             <p>Being familiar with best practices for interaction design between a user and the product significantly shapes the user experience.</p>
-          </div>
-          <div className="card text-center my-2 p-10">
-            <h4>USABILITY TESTING</h4>
-            <p>Observing users interactions across a digital product to identify user pain points, usability issues, and areas for user interface improvement.</p>
-          </div>
-          <div className="card text-center my-2 p-10">
-            <h4>PROBLEM SOLVING</h4>
-            <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
-          </div>
-          <div className="card text-center my-2 p-10">
-            <h4>PROBLEM SOLVING</h4>
-            <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
-          </div>
-          <div className="card text-center my-2 p-10">
-            <h4>PROBLEM SOLVING</h4>
-            <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
           </div>
           <div className="card text-center my-2 p-10">
             <h4>PROBLEM SOLVING</h4>
@@ -79,7 +67,6 @@ const Home = () => {
       </div>
     </div>
     </FadeInSection>
-
 
     <FadeInSection>
     <div className="container">

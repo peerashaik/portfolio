@@ -2,65 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
     --black: #101010;
     --white: #ffffff;
     --grey: #999;
     --grey-dark: #505050;
-    --grey-dark2: #C0C0C0;
     --grey-light: #e2e2e2;
-    --grey-light2: #f0f0f0;
     --red: #ff4c37;
     --blue: #08C2FF;
     --green: #00d921;
     --yellow: #F3C623;
 }
-
-.zilla-slab-light {
-  font-weight: 300;
-}
-
-.zilla-slab-regular {
-  font-weight: 400;
-}
-
-.zilla-slab-medium {
-  font-weight: 500;
-}
-
-.zilla-slab-semibold {
-  font-weight: 600;
-}
-
-.zilla-slab-bold {
-  font-weight: 700;
-}
-
-.zilla-slab-light-italic {
-  font-weight: 300;
-}
-
-.zilla-slab-regular-italic {
-  font-weight: 400;
-}
-
-.zilla-slab-medium-italic {
-  font-weight: 500;
-}
-
-.zilla-slab-semibold-italic {
-  font-weight: 600;
-}
-
-.zilla-slab-bold-italic {
-  font-weight: 700;
-}
-
-
 
 body {
     color: var(--black);
@@ -93,10 +48,6 @@ small,
     font-size: 12px;
 }
 
-img {
-    width: 100%;
-}
-
 a {
     color: var(--red);
     text-decoration: none;
@@ -105,20 +56,6 @@ a {
         color: var(--grey-dark);
         text-decoration: underline;
     }
-
-    &.white {
-        color: var(--white);
-    }
-    
-    &.white:is(:hover, :focus) {
-        color: var(--grey-dark);
-        text-decoration: underline;
-    }
-}
-
-hr {
-    opacity: .8;
-    margin: 30px 0;
 }
 
 iframe {
@@ -128,6 +65,10 @@ iframe {
 
 input[type="submit"] {
     cursor: pointer;
+}
+
+.form-input {
+    border: 1px solid var(--grey-light);
 }
 
 /*buttons*/
@@ -150,24 +91,12 @@ input[type="submit"] {
     color: var(--white);
     
     &.btn-primary:is(:hover, :focus) {
-        background-color: var(--white);
-        border-color: var(--white);
-        color: var(--black);
+        background-color: var(--black);
+        border-color: var(--black);
+        color: var(--white);
     }
 }
 
-.btn-black {
-    background-color: var(--black);
-    border-color: var(--black);
-    color: var(--white);
-    
-    &.btn-black:is(:hover, :focus) {
-        background-color: transparent;
-        color: var(--black);
-    }
-}
-
-.btn-black,
 .btn-primary {
     &:after {
         position: absolute;
@@ -177,40 +106,7 @@ input[type="submit"] {
         top: 0;
         left: 0;
         z-index: -1;
-        background-color: var(--white);
-        transition: all .9s ease;
-    }
-
-    &:hover {
-        &:after {
-            top: auto;
-            bottom: 0;
-            height: 100%;
-        }
-    } 
-}
-
-
-.btn-outline {
-    background-color: transparent;
-    color: var(--black);
-    border: 1px solid var(--black);
-
-    &.btn-outline:is(:hover, :focus) {
-        color: var(--white);
-        background-color: var(--black);
-        border-color: var(--black);
-    }
-
-    &:after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 0;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        background-color: var(--black);
+        background-color: var(--grey-dark);
         transition: all .9s ease;
     }
 
