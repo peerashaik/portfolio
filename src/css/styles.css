@@ -442,10 +442,19 @@ input[type="submit"] {
         transition: all .3s ease-in-out;
     }
 
-    &:hover i {
-        background: var(--red);
-        color: var(--white);
-    }
+    &:hover{
+        border: 1px solid var(--red);
+        cursor: pointer;
+        
+        i {
+            background: var(--red);
+            color: var(--white);
+        }
+
+        h4 {
+            color: var(--red);
+        } 
+    } 
 
     a:hover {
         text-decoration: none;
@@ -675,7 +684,7 @@ input[type="submit"] {
     }
 
     &:hover i {
-        color: var(--white);
+        color: var(--black);
     }    
 }
 
