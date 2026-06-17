@@ -10,7 +10,7 @@ const Works = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
-        <h2 className="relative text-4xl md:text-5xl text-center my-10"><span className="inline text-pink">Client</span> &amp; Success</h2>
+        <h2 className="text-red text-4xl md:text-5xl text-center my-10">Works &amp; Success</h2>
         <p className="px-10">Having had a great successful journey so far and I extremely have gratitude for all my employers and their clients. Here are some best samples that I was involved with.</p>
         <p className="px-10 mt-5">Keeping clients informed regular updates and transparent communication help build trust and prevent misunderstandings. Be open to feedback and willing to make iterates. Flexibility shows that you value their input and are committed to delivering the best possible outcome.</p>
       </div>
@@ -18,7 +18,7 @@ const Works = () => {
     </FadeInSection>
 
     <div className="container">
-      <div className="my-10 py-5">
+      <div className="mt-10 mb-20">
         <div className="my-work-list flex flex-wrap justify-evenly gap-12">
           
           {projects.map(work => (
@@ -39,16 +39,6 @@ const Works = () => {
         </div>
       </div>
     </div>
-
-    <FadeInSection>
-    <div className="container">
-      <div className="text-center my-32 px-10">
-        <h2 className="text-4xl md:text-5xl text-center my-10">Employer <span className="inline-block text-pink">Bonding</span></h2>
-        <p className="mb-10">Client success is a crucial aspect of any business, especially in design and development. Building a strong bond with employer is essential for long-term success and loyalty. </p>
-        <Button btnlink='experience' btnstyle='btn-primary' label='ALL MY EMPLOYERS' />
-      </div>
-    </div>
-    </FadeInSection>
 
     </>
   );

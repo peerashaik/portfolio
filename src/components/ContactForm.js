@@ -32,7 +32,7 @@ const Alert = styled.div`
 export const ContactForm = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const submitForm = (e) => {
     e.preventDefault();
 
     emailjs
@@ -40,7 +40,7 @@ export const ContactForm = () => {
         'service_ons00yl',
         'template_d7mb0ye',
         form.current, {
-          publicKey: 'Nfw4OTt2ySuiUsEyn'
+          publicKey: 'l2ntGNMeunGEJ1EDj'
         })
       .then(
         () => {
@@ -57,7 +57,7 @@ export const ContactForm = () => {
 
   return (
     <>
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={submitForm}>
       <Alert id="success" className="alert alert-success" role="alert"></Alert>
       <div className="mb-3">
         <label htmlFor="fullname" className="block form-label">Name</label>

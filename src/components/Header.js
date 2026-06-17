@@ -1,12 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logoUrl from '../assets/profile-logo.svg';
 
 function Header() {
   return (
     <>
-    <div className="header flex flex-col justify-center items-center mt-14 mb-7">
-      <NavLink className="link no-underline p-0" to="/"><h1>Shaik Peera</h1></NavLink>
-      <p className="small m-0">DESIGN <span>|</span> DEVELOP <span>|</span> TECHY <span>|</span> MENTOR</p>
+    <div className="header flex flex-col justify-center items-center my-8">
+        <a href="/" rel="noreferrer">
+            <img src={logoUrl} alt="Logo" />
+        </a>
+      <p className="small m-0 mt-4">VISAULIZATION <span className="m-3 mt-0">|</span> DESIGN <span className="m-3 mt-0">|</span> DEVELOPMENT <span className="m-3 mt-0">|</span> INTERACTION</p>
     </div>
 
     <div className="navToggle">
@@ -14,7 +17,7 @@ function Header() {
       <span></span>
       <span></span>
       <span></span>
-      <ul className="menu fixed top-0 right-0 flex flex-wrap flex-col justify-center items-center w-full md:w-3/6">
+      <ul className="menu fixed top-0 right-0 flex flex-wrap flex-col justify-center items-center w-full">
         <li>
             <NavLink to="/about" className="nav-link">About</NavLink>
         </li>

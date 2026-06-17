@@ -7,30 +7,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
-    --black: #000000;
+    --black: #101010;
     --white: #ffffff;
+    --grey: #999;
     --grey-dark: #505050;
     --grey-dark2: #C0C0C0;
-    --grey: #999;
-    --grey-light: #e5e5e5;
-    --grey-light2: #e2e2e2;
+    --grey-light: #e2e2e2;
+    --grey-light2: #f0f0f0;
+    --red: #ff4c37;
     --blue: #08C2FF;
-    --light-blue: #eaeff5;
-    --navy-blue: #4F75FF;
-    --red: #ff2222;
+    --green: #00d921;
     --yellow: #F3C623;
-    --water: #08C2FF;
-    --green: #0ed08a;
-    --pink: #ff4c37;
-    --purple: #7A1CAC;
 }
 
+.zilla-slab-light {
+  font-weight: 300;
+}
+
+.zilla-slab-regular {
+  font-weight: 400;
+}
+
+.zilla-slab-medium {
+  font-weight: 500;
+}
+
+.zilla-slab-semibold {
+  font-weight: 600;
+}
+
+.zilla-slab-bold {
+  font-weight: 700;
+}
+
+.zilla-slab-light-italic {
+  font-weight: 300;
+}
+
+.zilla-slab-regular-italic {
+  font-weight: 400;
+}
+
+.zilla-slab-medium-italic {
+  font-weight: 500;
+}
+
+.zilla-slab-semibold-italic {
+  font-weight: 600;
+}
+
+.zilla-slab-bold-italic {
+  font-weight: 700;
+}
+
+
+
 body {
-    color: var(--white);
-    background-color: var(--black);
+    color: var(--black);
     font-family: "Poppins", serif;
-    font-weight: 400;
-    font-size: 1.1rem;
+    font-weight: 300;
+    font-size: 1rem;
     line-height: normal;
     margin: 0;
     word-break: break-word;
@@ -42,8 +78,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--white);
-    font-weight: 700;
+    font-family: "Zilla Slab", serif;
+    font-style: normal;
     line-height: normal;
     margin: 0;
 }
@@ -62,7 +98,7 @@ img {
 }
 
 a {
-    color: var(--pink);
+    color: var(--red);
     text-decoration: none;
 
     &:is(:hover, :focus) {
@@ -109,8 +145,8 @@ input[type="submit"] {
 }
 
 .btn-primary {
-    background-color: var(--pink);
-    border-color: var(--pink);
+    background-color: var(--red);
+    border-color: var(--red);
     color: var(--white);
     
     &.btn-primary:is(:hover, :focus) {
@@ -188,16 +224,12 @@ input[type="submit"] {
 }
 
 /*colors*/
-.text-pink {
-    color: var(--pink);   
+.text-red {
+    color: var(--red);   
 }
 
 .text-green {
     color: var(--green);
-}
-
-.text-red {
-    color: var(--red);
 }
 
 .text-blue {
@@ -208,84 +240,13 @@ input[type="submit"] {
     color: var(--yellow);
 }
 
-.text-water {
-    color: var(--water);
-}
-
 .color-bg {
     overflow: hidden;
     position: relative;
 
-    &.red {
-        background-color: var(--red);
-    }
-
-    &.green {
-        background-color: var(--green);
-    }
-
-    &.purple {
-        background-color: var(--purple);
-    }
-
-    &.blue {
-        background-color: var(--blue);
-    }
-
-    &.navy-blue {
-        background-color: var(--navy-blue);
-    }
-
-    &.yellow {
-        background-color: var(--yellow);
-    }
-
-    &.water {
-        background-color: var(--water);
-    }
-}
-
-.slant {
-    width: 105%;
-    height: 100px;
-    transform: rotate(1.6deg);
-    position: absolute;
-    bottom: -90px;
-    left:0;
-    right: 0;
-    z-index: 0;
-
-    &.light-blue {
-        background: var(--light-blue);
-        transform: rotate(-1.6deg);
-    }
-
     &.black {
-        background: var(--black);
+        background-color: var(--black);
     }
-
-    &.black.top {
-        background: var(--black);
-        bottom: inherit;
-        top: -50px;
-    }
-}
-
-/*Header*/
-.header {
-    h1 {
-        font-family: "Pacifico", cursive;
-        font-size: 46px;
-        font-weight: 400;
-        line-height: 50px;
-        margin: 0 0 10px;
-        text-transform: none;
-    }
-
-    a:before,
-    a:after {
-        bottom: 5px;
-    }    
 }
 
 /*Footer*/
@@ -295,13 +256,17 @@ input[type="submit"] {
             margin: 0 30px 0 0;
         }
         .nav-link {
-            color: var(--white);
+            color: var(--red);
             font-size: 16px;
             padding: 4px 0;
             position: relative;
 
+            &:hover {
+                color: var(--black);
+            }
+
             &.active {
-                color: var(--pink);
+                color: var(--red);
             }
         }
     }
@@ -327,7 +292,7 @@ input[type="submit"] {
         transition: color 0.3s ease;
 
         &:hover {
-            color: var(--pink);
+            color: var(--red);
         }
     }
 
@@ -348,7 +313,7 @@ input[type="submit"] {
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-        background: var(--white);
+        background: var(--grey-dark);
         z-index: 1;
         transform-origin: 4px 0px;
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
@@ -426,8 +391,8 @@ input[type="submit"] {
         &:before {
             left: 0;
             top: 0;
-            border-left: 3px solid var(--pink);
-            border-top: 3px solid var(--pink);
+            border-left: 3px solid var(--red);
+            border-top: 3px solid var(--red);
             -webkit-transform: translate(100%, 50%);
             transform: translate(100%, 50%);
         }
@@ -435,8 +400,8 @@ input[type="submit"] {
         &:after {
             right: 0;
             bottom: 0;
-            border-right: 3px solid var(--pink);
-            border-bottom: 3px solid var(--pink);
+            border-right: 3px solid var(--red);
+            border-bottom: 3px solid var(--red);
             -webkit-transform: translate(-100%, -50%);
             transform: translate(-100%, -50%);
         }
@@ -462,14 +427,14 @@ input[type="submit"] {
     position: relative;
 
     &:is(:hover, :focus) {
-        color: var(--pink);
+        color: var(--red);
         text-decoration: none;
     }
 
     &:before,
     &:after {
         content: "";
-        background-color: var(--pink);
+        background-color: var(--red);
         display: block;
         -webkit-transition: all 0.55s ease;
         transition: all 0.55s ease;
@@ -500,23 +465,14 @@ input[type="submit"] {
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
-
-    p,
-    ul li {
-        color: var(--grey-dark2);
-    }
-}
-
-.color-bg .container p {
-    color: var(--white);
 }
 
 /*Home Banners*/
 .hero-text {
-    background: -webkit-linear-gradient(313deg, var(--pink), var(--pink), var(--grey-dark), var(--grey-dark));
+    -webkit-text-fill-color: #fff0;
+    background: -webkit-linear-gradient(313deg,var(--red),var(--red),var(--grey-dark),var(--grey-dark));
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: #fff0;
 }
 
 .banners {
@@ -591,7 +547,7 @@ input[type="submit"] {
     }
 
     &:hover i {
-        background: var(--pink);
+        background: var(--red);
         color: var(--white);
     }
 
@@ -601,8 +557,6 @@ input[type="submit"] {
 }
 
 .cards {
-    background-color: var(--light-blue);
-
     &.empty {
         .card {
             background: var(--black);
@@ -618,12 +572,12 @@ input[type="submit"] {
             }
 
             &:hover h4 {
-                color: var(--pink);
+                color: var(--red);
             }
 
             &:after {
                 content: "";
-                background-color: var(--pink);
+                background-color: var(--red);
                 display: block;
                 -webkit-transition: all 0.55s ease;
                 transition: all 0.55s ease;
@@ -643,15 +597,6 @@ input[type="submit"] {
 
 /*Key Skills*/
 .key-skills {
-    h2 {
-        font-size: 54px;
-        line-height: 50px;
-    }
-
-    h3 {
-        font-size: 32px;
-    }
-
     ul {
         list-style: none;
         margin: 0;
@@ -685,7 +630,7 @@ input[type="submit"] {
             left: -15%;
             display: inline-block;
             border-radius: 50%;
-            border: 50px solid var(--pink);
+            border: 50px solid var(--red);
             outline-style: solid;
             outline-color: var(--black);
             outline-width: 50px;
@@ -697,7 +642,7 @@ input[type="submit"] {
         &:focus i {
             border: 50px solid var(--black);
             outline-style: dotted;
-            outline-color: var(--pink);
+            outline-color: var(--red);
             transition: all 0.35s ease;
             transform: rotate(90deg);
             opacity: .5;
@@ -742,14 +687,27 @@ input[type="submit"] {
 /* employer list*/
 .employer-list {
     list-style: none;
-    margin: 30px 0 0;
     padding: 0;
 
     li {
         border: 1px solid var(--grey-light);
-        margin: 50px 0;
+        box-shadow: 0 8px 5px var(--grey-light);
+        margin: 10px 0 30px 0;
         padding: 20px;
         position: relative;
+
+        &:hover {
+            border: 1px solid var(--red);
+
+            h3 strong {
+                color: var(--red);
+            }
+
+            i.num {
+               background: var(--red);
+               color: var(--white);
+            }
+        }
 
         p {
             margin: 8px 0;
@@ -776,7 +734,6 @@ input[type="submit"] {
             right: 0;
             width: 54px;
             height: 54px;
-
         }  
     }
 
@@ -802,7 +759,7 @@ input[type="submit"] {
 /*Contact page*/
 .contact {
     h5 {
-        color: var(--pink);
+        color: var(--red);
     }
 
     i {
@@ -817,12 +774,12 @@ input[type="submit"] {
     animation: moveUp .4s linear;
 
     i {
-        color: var(--white);
+        color: var(--red);
         font-size: 48px
     }
 
     &:hover i {
-        color: var(--pink);
+        color: var(--white);
     }    
 }
 
@@ -873,7 +830,7 @@ input[type="submit"] {
         }
 
         .img-wrapper i {
-            border: 100px solid var(--pink);
+            border: 100px solid var(--red);
             outline-width: 100px;
 
             &:hover i,

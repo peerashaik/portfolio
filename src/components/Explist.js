@@ -1,5 +1,12 @@
 export const expData = [
   {
+    "id": 8,
+    "company": "Levant Central",
+    "location": "Remote",
+    "tenure": "Mar 2025 - Apr 2026",
+    "designation": "Freelance Web Designer and Developer",
+    "shortdesc": "Worked as a senior web designer and developer, redesigned and optimized WordPress themes for Levant Central, improving Core Web Vitals scores by 35% and increasing organic traffic by 20%. My responsibilities include customizing and developing WordPress themes to integrate their services, with a strong focus on SEO optimization and page performance, and alignment with the company’s business goals."
+  },{
     "id": 7,
     "company": "ITC Infotech",
     "location": "Bangalore",

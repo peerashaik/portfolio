@@ -8,42 +8,32 @@ const About = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
-        <h2 className="relative text-4xl md:text-5xl text-center my-10"><span className="inline-block text-red">Design</span> &amp; Development</h2>
+        <h2 className="text-red text-4xl md:text-5xl text-center my-10">Design &amp; Development</h2>
         <div className="px-10">
-          <p className="mb-5">Crazy user interface designer and developer, and I am not just pushing pixels which crafting experiences that resonate globally. Being stack of HTML5, CSS3, ReactJS, Magento2, and beyond, my creativity is clearly fueled by a mastery of both design and code.</p>
-          <p>Develop highly interactive Frontend User Interfaces for your web and mobile applications.</p>
-          <p className="mb-10">I have also become a highly recommended UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details.</p>
-          <Button className="nav-link link" btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
+          <p className="mb-5">Being a senior user interface designer, I enjoy learning about technology and adapt easy and productive. Being stack of HTML5, CSS3, Bootstrap, Responsive Web Design, JavaScript, jQuery,  ReactJS, Magento2 UI, Shopify UI, WordPress UI, my creativity is clearly fueled by a mastery of both design and development.</p>
+          <p className="mb-10">Develop highly interactive Frontend User Interfaces for your web and mobile applications. I have also become a highly recommended UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details.</p>
+          <Button className="nav-link link" btnlink='skills' btnstyle='btn-primary' label='ABOUT MY SKILLS' />
         </div>
       </div>
     </div>
     </FadeInSection>
 
-    <div className="hero-banner about">
-      <div className="headings flex justify-center items-center flex-col absolute z-10 w-full h-full">
-        <h2 className="text-center">HAVE A PROJECT IN MIND?<br /><span className="inline text-red ms-2">LET'S DISCUSS!</span></h2>
-        <Button className="nav-link link" btnlink='asmeals' btnstyle='btn-primary' label='My SHOPIFY' />
-      </div>
-      <div className="overlay"></div>
-      <div className="pic"></div>
-    </div>
-
     <FadeInSection>
-    <div className="color-bg red py-14 text-center">
       <div className="container">
-        <h3 className="uppercase text-white text-3xl md:text-5xl my-10">An Enthusiastic</h3>
-        <p className="text-white px-10 mb-10">I am an enthusiastic IT industry professional with 21 years of hands-on experience across various roles. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Adobe Magento2 Commerce Frontend Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
-        <Button btnlink='skills' btnstyle='btn-black' label='ABOUT MY SKILLS' />
+        <div className="text-center">
+          <h2>HAVE A PROJECT IN MIND? LET'S DISCUSS! </h2>
+          <h3 className="text-3xl md:text-5xl my-10">An Enthusiastic</h3>
+          <p className="px-10 mb-10">I am an enthusiastic IT industry professional with 21 years of hands-on experience across various roles. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Adobe Magento2 Commerce Frontend Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
+          <Button className="nav-link link" btnlink='experience' btnstyle='btn-black' label='MY EXPERIENCES' />
+        </div>
       </div>
-      <div className="slant black"></div>
-    </div>
     </FadeInSection>
 
     <FadeInSection>
-    <div className="my-28">
+    <div className="mt-20 mb-28">
     <div className="container">
       <div className="text-center">
-        <h2 className="relative text-4xl md:text-5xl text-center mb-10"><strong>Find <span className="inline-block text-red">Me!</span></strong> <i className="bi bi-bar-chart-fill"></i></h2>
+        <h2 className="relative text-4xl md:text-5xl text-center mb-10"><strong>Find <span className="inline-block">Me!</span></strong> <i className="bi bi-bar-chart-fill"></i></h2>
         <p className="px-10 mb-10">It’s great expereince so far! Passionate for web design and development, I always enjoy challenges that both inspire and relax me!</p>
       </div>
       <div className="key-skills px-10">
