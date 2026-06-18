@@ -20,7 +20,7 @@ const Expereinces = () => {
 
     <FadeInSection>
     <div className="container">
-        <h2 className="text-center"><strong><span className="text-red">For All</span> My <span className="text-yellow">Employers...</span> <i className="bi bi-balloon-heart"></i></strong></h2>
+        <h2 className="text-center text-3xl mb-0"><span className="text-red">For All</span> my <span className="text-blue">Employers...</span> <i className="bi bi-balloon-heart"></i></h2>
         <ul className="employer-list mt-10 mb-32">
           <Explist />
         </ul>
