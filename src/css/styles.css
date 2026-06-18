@@ -162,7 +162,7 @@ input[type="submit"] {
             }
 
             &.active {
-                color: var(--red);
+                color: var(--black);
             }
         }
     }
