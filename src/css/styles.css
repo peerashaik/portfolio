@@ -550,7 +550,7 @@ input[type="submit"] {
             outline-color: var(--red);
             transition: all 0.35s ease;
             transform: rotate(90deg);
-            opacity: .5;
+            opacity: 1;
         }
 
         img {
@@ -731,16 +731,14 @@ input[type="submit"] {
         }
 
         .img-wrapper {
-            padding: 60px;
-        }
-
-        .img-wrapper i {
-            border: 100px solid var(--red);
-            outline-width: 100px;
+            i {
+                border: 70px solid var(--red);
+                outline-width: 70px;
+            }
 
             &:hover i,
             &:focus i {
-                border: 100px solid var(--black);
+                border: 70px solid var(--black);
             }        
         }
     }
