@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
     <div className="header flex flex-col justify-center items-center my-8">
-        <a href="/" rel="noreferrer">
+        <a href="" rel="noreferrer">
             <img src={logoUrl} alt="Logo" />
         </a>
       <p className="small m-0 mt-4">VISAULIZATION <span className="m-3 mt-0">|</span> DESIGN <span className="m-3 mt-0">|</span> DEVELOPMENT <span className="m-3 mt-0">|</span> INTERACTION</p>
