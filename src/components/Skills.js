@@ -83,7 +83,6 @@ const Skills = () => {
             <li><i className="bi bi-record-circle-fill"></i><strong>Version Control (Git):</strong> Skilled in collaborating with development teams using Git for code versioning.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Performance Optimization:</strong> Dedicated to improving website speed by analyzing Core Web Vitals and optimizing performance, including minimizing HTTP requests.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>CI/CD Integration:</strong> Experienced to implement the continuous integration and continuous deployment process towards a smooth development and a cleaner code visibility.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Figma, Adobe XD,  Sketch, Photoshop, Illustrator.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Programming Skills:</strong> HTML5, XHTML, XML, CSS3(Less & Sass), Tailwind CSS, Bootstrap, Responsive Web Design, Semantic UI, W3c Standards, PHP, mySQL, JavaScript, jQuery, React JS, WordPress, Webflow, Magento2, Shopify, October CMS.</li>
             <li><i className="bi bi-record-circle-fill"></i><strong>Communication and Collaboration:</strong> Partnered with product teams and stakeholders to deliver innovative application design solutions within Agile sprints, driving successful goal completion.</li>
           </ul>
