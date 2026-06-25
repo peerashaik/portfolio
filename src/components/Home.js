@@ -71,32 +71,44 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="key-skills mb-20 mt-20">
-        <h2 className="text-3xl md:text-5xl text-center text-red mb-10">Top Skills & Technologies</h2>
-        <div className="grid md:grid-cols-2 md:gap-20">
-        <div>
-          <ul>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Expertise to create a user interface designs using Photoshop, Figma, Adobe XD, Webflow and more.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>HTML5 and XHTML:</strong> Adept at crafting semantic and accessible web pages, ensuring compatibility across devices and browsers.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>CSS3 (Less and Sass):</strong> Well-versed in layouts using Flexbox and CSS Grid, with expertise in CSS preprocessors to create modular, maintainable stylesheets.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Responsive Web Design:</strong> Committed to delivering responsive and mobile-first and all device friendly designs for optimal user experiences.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Bootstrap:</strong> Expertise with the Bootstrap framework for building responsive and consistent UI components.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Tailwind CSS:</strong> Experienced with utility‑first CSS frameworks for building user interfaces.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>JavaScript and jQuery:</strong> Proficient in enhancing frontend functionality through dynamic scripting and interactivity.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>React JS:</strong> Expertise in developing cross-browser Single Page Applications and mobile friendly applications.</li>
+        <h2 className="text-3xl md:text-5xl text-center text-red mb-10">Tools & Technologies</h2>
+          <ul className="tools">
+            <li><i class="cbp-ig-icon devicon-html5-plain"></i><h3>Html5</h3></li>
+            <li><i class="cbp-ig-icon devicon-css3-plain"></i><h3>Css3</h3></li>
+            <li><i class="cbp-ig-icon devicon-less-plain-wordmark"></i><h3>Less</h3></li>
+            <li><i class="cbp-ig-icon devicon-sass-original"></i><h3>Sass</h3></li>
+            <li><i class="cbp-ig-icon devicon-tailwindcss-original"></i><h3>Tailwind</h3></li>
+            <li><i class="cbp-ig-icon devicon-postcss-original"></i><h3>PostCSS</h3></li>
+            <li><i class="cbp-ig-icon devicon-devicon-plain"></i><h3>DevIcons</h3></li>
+            <li><i class="cbp-ig-icon devicon-bootstrap-plain"></i><h3>Bootstrap</h3></li>
+            <li><i class="cbp-ig-icon devicon-javascript-plain"></i><h3>JavaScript</h3></li>
+            <li><i class="cbp-ig-icon devicon-jquery-plain"></i><h3>jQuery</h3></li>
+            <li><i class="cbp-ig-icon devicon-knockout-plain-wordmark"></i><h3>Knockout</h3></li>
+            <li><i class="cbp-ig-icon devicon-react-original"></i><h3>React Js</h3></li>
+            <li><i class="cbp-ig-icon devicon-figma-plain"></i><h3>Figma</h3></li>
+            <li><i class="cbp-ig-icon devicon-xd-plain"></i><h3>Adobe XD</h3></li>
+            <li><i class="cbp-ig-icon devicon-sketch-plain"></i><h3>Sketch</h3></li>
+            <li><i class="cbp-ig-icon devicon-photoshop-plain"></i><h3>Photoshop</h3></li>
+            <li><i class="cbp-ig-icon devicon-illustrator-plain"></i><h3>Illustrator</h3></li>
+            <li><i class="cbp-ig-icon devicon-php-plain"></i><h3>Php</h3></li>
+            <li><i class="cbp-ig-icon devicon-mysql-original"></i><h3>MySql</h3></li>
+            <li><i class="cbp-ig-icon devicon-wordpress-plain"></i><h3>WordPress</h3></li>
+            <li><i class="cbp-ig-icon devicon-magento-original"></i><h3>Magento</h3></li>
+            <li><i class="bi bi-shop"></i><h3>Shopify</h3></li>
+            <li><i class="cbp-ig-icon devicon-webflow-original"></i><h3>Webflow</h3></li>
+            <li><i class="cbp-ig-icon devicon-dotnetcore-plain"></i><h3>.Net</h3></li>
+            <li><i class="cbp-ig-icon devicon-drupal-plain"></i><h3>Drupal</h3></li>
+            <li><i class="cbp-ig-icon devicon-jira-plain"></i><h3>Jira</h3></li>
+            <li><i class="cbp-ig-icon devicon-confluence-plain"></i><h3>Confluence</h3></li>
+            <li><i class="cbp-ig-icon devicon-cpanel-original"></i><h3>CPanel</h3></li>
+            <li><i class="cbp-ig-icon devicon-filezilla-plain"></i><h3>Filezilla</h3></li>
+            <li><i class="cbp-ig-icon devicon-jenkins-line"></i><h3>Jenkins</h3></li>
+            <li><i class="cbp-ig-icon devicon-git-plain"></i><h3>Git</h3></li>
+            <li><i class="cbp-ig-icon devicon-github-original"></i><h3>GitHub</h3></li>
+            <li><i class="cbp-ig-icon devicon-bitbucket-original"></i><h3>Bitbucket</h3></li>
+            <li><i class="cbp-ig-icon devicon-linux-plain"></i><h3>Linux</h3></li>
+            <li><i class="cbp-ig-icon devicon-docker-plain"></i><h3>Docker</h3></li>
           </ul>
-        </div>
-        <div>
-          <ul>
-            <li><i className="bi bi-record-circle-fill"></i><strong>eCommerce Frontend:</strong> Proficient in developing custom themes, templates, and layouts using Magento2, Shopify, WordPress frontend architecture.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Version Control (Git):</strong> Skilled in collaborating with development teams using Git for code versioning.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Performance Optimization:</strong> Dedicated to improving website speed by analyzing Core Web Vitals and optimizing performance, including minimizing HTTP requests.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>CI/CD Integration:</strong> Experienced to implement the continuous integration and continuous deployment process towards a smooth development and a cleaner code visibility.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Design Tools:</strong> Figma, Adobe XD,  Sketch, Photoshop, Illustrator.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Programming Skills:</strong> HTML5, XHTML, XML, CSS3(Less & Sass), Tailwind CSS, Bootstrap, Responsive Web Design, Semantic UI, W3c Standards, PHP, mySQL, JavaScript, jQuery, React JS, WordPress, Webflow, Magento2, Shopify, October CMS.</li>
-            <li><i className="bi bi-record-circle-fill"></i><strong>Communication and Collaboration:</strong> Partnered with product teams and stakeholders to deliver innovative application design solutions within Agile sprints, driving successful goal completion.</li>
-          </ul>
-        </div>
-        </div>
       </div>
     </div>
     </FadeInSection>

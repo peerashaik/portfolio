@@ -10,27 +10,17 @@ const About = () => {
       <div className="text-center my-20">
         <h2 className="text-red text-4xl md:text-5xl text-center my-10">Design &amp; Development</h2>
         <div className="px-10">
-          <p className="mb-5">Being a senior user interface designer, I enjoy learning about technology and adapt easy and productive. Being stack of HTML5, CSS3, Bootstrap, Responsive Web Design, JavaScript, jQuery,  ReactJS, Magento2 UI, Shopify UI, WordPress UI, my creativity is clearly fueled by a mastery of both design and development.</p>
-          <p className="mb-10">Develop highly interactive Frontend User Interfaces for your web and mobile applications. I have also become a highly recommended UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details.</p>
-          <Button className="nav-link link" btnlink='skills' btnstyle='btn-primary' label='ABOUT MY SKILLS' />
+          <p className="mb-5">Experienced Webmaster, Web Development, and SEO Services with 22 years in IT industry, specializing in User Interface Design & Development of web applications and including WordPress, Magento2, Shopify CMS platforms for both desktop and mobile user centered interfaces.</p>
+          <p className="mb-5">Skilled in Figma, Adobe XD, HTML5, CSS3, Bootstrap, Responsive Web Design, JavaScript, jQuery,  ReactJS, Magento2 UI, Shopify UI, WordPress UI, and my creativity is clearly fueled by a mastery of both design and development.</p>
+          <p className="mb-5">Develop highly interactive Frontend User Interfaces for your web and mobile applications. I have also become a highly recommended UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details.</p>
+           <p className="mb-5">Experience in end-to-end web deployment operations like hosting, domains, GitHub, CI/CD integrations.  Adept at delivering pixel-perfect, user-centric interfaces that perform seamlessly cross-browser compatible and cross-all devices targeting core web vitals to improve performance fueling both customer delight and measurable analytics growth.</p>
+          <Button className="nav-link link" btnlink='works' btnstyle='btn-primary' label='MY WORKS' />
         </div>
       </div>
     </div>
     </FadeInSection>
 
     <FadeInSection>
-      <div className="container">
-        <div className="text-center">
-          <h2>HAVE A PROJECT IN MIND? LET'S DISCUSS! </h2>
-          <h3 className="text-red text-3xl md:text-5xl my-10">An Enthusiastic</h3>
-          <p className="px-10 mb-10">I am an enthusiastic IT industry professional with 21 years of hands-on experience across various roles. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Adobe Magento2 Commerce Frontend Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
-          <Button className="nav-link link" btnlink='experience' btnstyle='btn-primary' label='MY EXPERIENCES' />
-        </div>
-      </div>
-    </FadeInSection>
-
-    <FadeInSection>
-    <div className="mt-20 mb-28">
     <div className="container">
       <div className="text-center">
         <h2 className="text-red text-4xl md:text-5xl text-center mb-10">Apart from Desk!</h2>
@@ -49,7 +39,19 @@ const About = () => {
         <Button className="nav-link link" btnlink='contact' btnstyle='btn-primary' label='CONTACT' />
       </div>
     </div>
-    </div>
+    </FadeInSection>
+
+    <FadeInSection>
+      <div className="mt-20 mb-28">
+      <div className="container">
+        <div className="text-center">
+          <h2>HAVE A PROJECT IN MIND? LET'S DISCUSS! </h2>
+          <h3 className="text-red text-3xl md:text-5xl my-10">Why I'am An Enthusiastic</h3>
+          <p className="px-10 mb-10">I am an enthusiastic User Centered Interface designer. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Commerce Frontend Theme Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
+          <a className="btn btn-primary" href="https://www.linkedin.com/in/peerashaik/" target="_blank" title="LinkedIn">SOCAIL ACTIVITY</a>
+        </div>
+      </div>
+      </div>
     </FadeInSection>
     </>
   );
