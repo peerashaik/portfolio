@@ -37,6 +37,7 @@ const About = () => {
       </div>
       <div className="mt-16 text-center">
         <Button className="nav-link link" btnlink='contact' btnstyle='btn-primary' label='CONTACT' />
+        <h3 className="mt-4">HAVE A PROJECT IN MIND? LET'S DISCUSS! </h3>
       </div>
     </div>
     </FadeInSection>
@@ -45,8 +46,7 @@ const About = () => {
       <div className="mt-20 mb-28">
       <div className="container">
         <div className="text-center">
-          <h2>HAVE A PROJECT IN MIND? LET'S DISCUSS! </h2>
-          <h3 className="text-red text-3xl md:text-5xl my-10">Why I'am An Enthusiastic</h3>
+          <h2 className="text-red text-3xl md:text-5xl my-10">Why I'am An Enthusiastic</h2>
           <p className="px-10 mb-10">I am an enthusiastic User Centered Interface designer. I am committed to shaping exceptional user experiences for digital products. My multifaceted background as a UI Designer, Web Developer, and Commerce Frontend Theme Developer has equipped me with a unique blend of creativity, technical acumen, and leadership skills.</p>
           <a className="btn btn-primary" href="https://www.linkedin.com/in/peerashaik/" target="_blank" title="LinkedIn">SOCAIL ACTIVITY</a>
         </div>
