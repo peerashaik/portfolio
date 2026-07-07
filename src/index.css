@@ -354,7 +354,6 @@ input[type="submit"] {
     }
 }
 
-/*Content Containers*/
 .container {
     box-sizing: border-box;
     max-width: 1280px;
@@ -363,8 +362,7 @@ input[type="submit"] {
     margin: 0 auto;
 }
 
-/*Home Banners*/
-.hero-text {
+.text-gradiant {
     -webkit-text-fill-color: #fff0;
     background: -webkit-linear-gradient(313deg,var(--red),var(--red),var(--grey-dark),var(--grey-dark));
     -webkit-background-clip: text;

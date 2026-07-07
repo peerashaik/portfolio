@@ -124,9 +124,9 @@ export const projects = [
   name: 'ElioBay',
   url: 'https://eliobay.com',
   image: require('./assets/works/eliobay.png'),
-  title: 'Solar Energy Custom Web Application Design',
-  theme: 'Designed and developed custom web application',
-  framework: 'Custom Application'
+  title: 'Solar Energy Custom Web Application',
+  theme: 'Designed and developed custom web application with PHP',
+  framework: 'Custom Development'
 }, {
   id: 16,
   name: 'PowerToolSpares',

@@ -10,7 +10,7 @@ const About = () => {
       <div className="text-center my-20">
         <h2 className="text-red text-4xl md:text-5xl text-center my-10">Design &amp; Development</h2>
         <div className="px-10">
-          <p className="mb-5">Experienced Webmaster, Web Development, and SEO Services with 22 years in IT industry, specializing in User Interface Design & Development of web applications and including WordPress, Magento2, Shopify CMS platforms for both desktop and mobile user centered interfaces.</p>
+          <p className="mb-5">Experienced Webmaster, Web Development, and SEO Services with 22+ years in IT industry, specializing in User Interface Design & Development of web applications and including WordPress, Magento2, Shopify CMS platforms for both desktop and mobile user centered interfaces.</p>
           <p className="mb-5">Skilled in Figma, Adobe XD, HTML5, CSS3, Bootstrap, Responsive Web Design, JavaScript, jQuery,  ReactJS, Magento2 UI, Shopify UI, WordPress UI, and my creativity is clearly fueled by a mastery of both design and development.</p>
           <p className="mb-5">Develop highly interactive Frontend User Interfaces for your web and mobile applications. I have also become a highly recommended UI designer known to push the boundaries of pixel perfect designs with my keen eyes for details.</p>
            <p className="mb-5">Experience in end-to-end web deployment operations like hosting, domains, GitHub, CI/CD integrations.  Adept at delivering pixel-perfect, user-centric interfaces that perform seamlessly cross-browser compatible and cross-all devices targeting core web vitals to improve performance fueling both customer delight and measurable analytics growth.</p>
