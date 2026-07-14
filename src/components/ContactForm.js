@@ -31,12 +31,11 @@ export const ContactForm = () => {
   const submitForm = (e) => {
     e.preventDefault();
 
-    emailjs
-    .sendForm(
+    emailjs.sendForm(
       'service_ons00yl',
       'template_d7mb0ye',
       form.current,
-      { publicKey: 'cFk0xTZlVdHR4Mb9h' }
+      'ADgMHBgjGsdPKvNLB'
     )
     .then(
       () => {
