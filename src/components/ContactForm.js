@@ -7,15 +7,16 @@ const Alert = styled.div.withConfig({
 })`
   display: ${(props) => (props.show ? 'block' : 'none')};
   border: 0;
-  border-radius: 8px;
+  border-radius: 10px 0 0 10px;
   background: var(--green);
-  font-size: 13px;
+  color: var(--white);
+  font-size: 14px;
   line-height: 18px;
-  padding: 10px;
+  padding: 30px;
   position: fixed;
-  top: 10%;
-  right: 20px;
-  width: 250px;
+  top: 20%;
+  right: 0;
+  width: 230px;
   animation: .5s slide-in linear;
   @keyframes slide-in {
     from { right: -100%; opacity: 0; }
