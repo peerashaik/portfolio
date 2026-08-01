@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://peerashaik.github.io/portfolio/",
+  "homepage": "https://peerashaik.github.io/portfolio/#/",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.13.9",
