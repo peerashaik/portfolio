@@ -10,7 +10,7 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <div className="text-center mt-5 px-10">
-        <h1 className="text-4xl"><span className="text-black">I'm </span><span className="text-red">Shaik Peera</span></h1>
+        <h1 className="text-4xl"><span className="text-black">I'm </span><span className="text-red">Peera Shaik</span></h1>
         <h2 className="text-4xl text-gradiant px-0 md:px-28">My work is a blend of Creative Design Thinking, Problem-Solving, and a relentless focus on the User Centered Interfaces</h2>
         <p className="mt-10">Let's create a successful journey - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
       </div>
