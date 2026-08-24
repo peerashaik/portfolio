@@ -13,8 +13,8 @@ function Header() {
     </div>
 
     <div className="navToggle">
-      <label>Hamburger</label>
-      <input type="checkbox" />
+      <label for="hamburger">Hamburger</label>
+      <input id="hamburger" type="checkbox" />
       <span></span>
       <span></span>
       <span></span>
