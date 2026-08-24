@@ -7,12 +7,13 @@ function Header() {
     <>
     <div className="header flex flex-col justify-center items-center my-8">
         <a href="" rel="noreferrer">
-            <img src={logoUrl} alt="Logo" />
+            <img src={logoUrl} alt="Peera Shaik" />
         </a>
       <p className="small m-0 mt-4">VISUALIZATION <span className="m-3 mt-0">|</span> DESIGN <span className="m-3 mt-0">|</span> DEVELOPMENT <span className="m-3 mt-0">|</span> INTERACTION</p>
     </div>
 
     <div className="navToggle">
+      <label>Hamburger</label>
       <input type="checkbox" />
       <span></span>
       <span></span>

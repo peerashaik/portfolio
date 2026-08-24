@@ -12,7 +12,6 @@ const Home = () => {
       <div className="text-center mt-5 px-10">
         <h1 className="text-4xl"><span className="text-black">I'm </span><span className="text-red">Peera Shaik</span></h1>
         <h2 className="text-4xl text-gradiant px-0 md:px-28">My work is a blend of Creative Design Thinking, Problem-Solving, and a relentless focus on the User Centered Interfaces</h2>
-        <p className="mt-10">Let's create a successful journey - <NavLink className="link" to="/contact">CONTACT</NavLink></p>
       </div>
     </div>
     </FadeInSection>
@@ -22,25 +21,25 @@ const Home = () => {
       <div className="color-bg black flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
           <h2><span className="text-blue">User</span><br/><span className="text-white">Centered</span></h2>
-          <h4>User Research | User Journey | User Flow</h4>
+          <h3>User Research | User Journey | User Flow</h3>
         </div>
       </div>
       <div className="color-bg black flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
           <h2><span className="text-red">User</span><br/><span className="text-white">Interface</span></h2>
-          <h4>Layout | Standards | Implementation</h4>
+          <h3>Layout | Standards | Implementation</h3>
         </div>
       </div>
       <div className="color-bg black flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
           <h2><span className="text-green">User</span><br/><span className="text-white">Accessability</span></h2>
-          <h4>Brand | Color | Typography | Vision</h4>
+          <h3>Brand | Color | Typography | Vision</h3>
         </div>
       </div> 
       <div className="color-bg black flex flex-wrap grow items-center w-full md:w-2/6">
         <div>
           <h2><span className="text-yellow">User</span><br/><span className="text-white">Interaction</span></h2>
-          <h4>Intercation | Micro Vision | DOM Manipulation</h4>          
+          <h3>Intercation | Micro Vision | DOM Manipulation</h3>          
         </div>
       </div>
     </div>

@@ -192,6 +192,10 @@ input[type="submit"] {
         }
     }
 
+    label {
+        display: none;
+    }
+
     input {
         display: block;
         width: 40px;
@@ -387,7 +391,7 @@ input[type="submit"] {
         margin: 0 0 20px;
     }
 
-    h4 {
+    h3 {
         color: var(--white);
         font-size: 14px;
         margin: 0;
