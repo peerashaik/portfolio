@@ -465,41 +465,39 @@ input[type="submit"] {
 }
 
 .cards {
-    &.empty {
         .card {
             background: var(--black);
 
-            h4 {
+            h3 {
                 color: var(--white);
                 font-size: 2.2rem;
                 line-height: 40px;
             }
 
-            p {
-                color: var(--white);
-            }
-
-            &:hover h4 {
-                color: var(--red);
-            }
-
-            &:after {
-                content: "";
-                background-color: var(--red);
-                display: block;
-                -webkit-transition: all 0.55s ease;
-                transition: all 0.55s ease;
-                position: absolute;
-                bottom: 30px;
-                left: 0;
-                width: 0;
-                height: 1px;
-            }
-
-            &:hover:after {
-                width: 100%;
-            }          
+        p {
+            color: var(--white);
         }
+
+        &:hover h3 {
+            color: var(--red);
+        }
+
+        &:after {
+            content: "";
+            background-color: var(--red);
+            display: block;
+            -webkit-transition: all 0.55s ease;
+            transition: all 0.55s ease;
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 0;
+            height: 1px;
+        }
+
+        &:hover:after {
+            width: 100%;
+        }          
     }
 }
 

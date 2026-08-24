@@ -48,18 +48,18 @@ const Home = () => {
     <FadeInSection>
     <div className="container">
       <h2 className="text-red text-3xl md:text-5xl mb-8">Why choose me</h2>
-      <div className="cards empty">
+      <div className="cards">
         <div className="grid md:grid-cols-3 md:gap-20">
           <div className="card text-center my-2 p-10">
-            <h4>VISUAL DESIGN</h4>
+            <h3>VISUAL DESIGN</h3>
             <p>Strong visual design skills with expertise in creating user‑friendly, aesthetically consistent interfaces.</p>
           </div>
           <div className="card text-center my-2 p-10">
-            <h4>INTERACTION DESIGN</h4>
+            <h3>INTERACTION DESIGN</h3>
             <p>Being familiar with best practices for interaction design between a user and the product significantly shapes the user experience.</p>
           </div>
           <div className="card text-center my-2 p-10">
-            <h4>PROBLEM SOLVING</h4>
+            <h3>PROBLEM SOLVING</h3>
             <p>Having a deep understanding for the user behaviours, challenges, and the creativity to devise solutions that enhance their experience.</p>
           </div>
         </div>

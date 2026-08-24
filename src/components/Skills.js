@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <>
     <FadeInSection>
-    <div className="cards pt-12 pb-28">
+    <div className="pt-12 pb-28">
       <div className="container">
       <div className="grid md:grid-cols-3 md:gap-20">
         <div className="card bg-white shadow-sm mt-5 text-center">
