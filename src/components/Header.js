@@ -5,6 +5,7 @@ import logoUrl from '../assets/logo.svg';
 function Header() {
   return (
     <>
+    <header>
     <div className="header flex flex-col justify-center items-center my-8">
         <a href="" rel="noreferrer">
             <img src={logoUrl} alt="Peera Shaik" />
@@ -35,6 +36,7 @@ function Header() {
         </li>
       </ul>
     </div>
+    </header>
     </>
   );
 }

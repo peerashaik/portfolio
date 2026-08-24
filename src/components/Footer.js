@@ -5,6 +5,7 @@ import Resume from './Resume';
 const Footer = (props) => {
   return (
     <>
+    <footer>
     <div className="resuMe hide relative md:fixed bottom-0 md:bottom-10 w-full md:w-auto pb-5 md:pb-0 text-center">
       <Resume />
     </div>
@@ -36,6 +37,7 @@ const Footer = (props) => {
     </div>
     
     <NavLink to="#" className="backtoTop hide fixed right-4 md:right-5"><i className="bi bi-arrow-up-circle-fill"></i><span>Back to Top</span></NavLink>
+    </footer>
     </>
   );
 }

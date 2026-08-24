@@ -7,6 +7,7 @@ import styled from 'styled-components';
 const Home = () => {
   return (
     <>
+    <main>
     <FadeInSection>
     <div className="container">
       <div className="text-center mt-5 px-10">
@@ -111,6 +112,7 @@ const Home = () => {
       </div>
     </div>
     </FadeInSection>
+    </main>
     </>
   );
 }

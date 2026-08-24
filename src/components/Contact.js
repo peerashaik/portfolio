@@ -5,6 +5,7 @@ import ContactForm from "./ContactForm";
 const Contact = () => {
   return (
     <>
+    <main>
     <FadeInSection>
       <div className="mt-14 mb-32">
         <div className="container">
@@ -49,6 +50,7 @@ const Contact = () => {
         </div>
       </div>
     </FadeInSection>
+    </main>
     </>
   );
 }

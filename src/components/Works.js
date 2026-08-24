@@ -6,7 +6,7 @@ import { projects } from '../worksData';
 const Works = () => {
   return (
     <>
-
+    <main>
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
@@ -39,7 +39,7 @@ const Works = () => {
         </div>
       </div>
     </div>
-
+    </main>
     </>
   );
 }
