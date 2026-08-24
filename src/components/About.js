@@ -5,6 +5,7 @@ import Button from './Button';
 const About = () => {
   return (
     <>
+    <main>
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
@@ -53,6 +54,7 @@ const About = () => {
       </div>
       </div>
     </FadeInSection>
+    </main>
     </>
   );
 }

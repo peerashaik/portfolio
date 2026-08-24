@@ -12,7 +12,8 @@ function Header() {
         </a>
       <p className="small m-0 mt-4">VISUALIZATION <span className="m-3 mt-0">|</span> DESIGN <span className="m-3 mt-0">|</span> DEVELOPMENT <span className="m-3 mt-0">|</span> INTERACTION</p>
     </div>
-
+    
+    <nav>
     <div className="navToggle">
       <input aria-label="hamburger" type="checkbox" />
       <span></span>
@@ -36,6 +37,7 @@ function Header() {
         </li>
       </ul>
     </div>
+    </nav>
     </header>
     </>
   );

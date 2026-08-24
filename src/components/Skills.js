@@ -6,6 +6,7 @@ import Button from './Button';
 const Skills = () => {
   return (
     <>
+    <main>
     <FadeInSection>
     <div className="pt-12 pb-28">
       <div className="container">
@@ -91,6 +92,7 @@ const Skills = () => {
       </div>
     </div>
     </FadeInSection>
+    </main>
     </>
   );
 }

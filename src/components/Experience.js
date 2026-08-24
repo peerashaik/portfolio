@@ -6,6 +6,7 @@ import Explist from './Explist';
 const Expereinces = () => {
   return (
     <>
+    <main>
     <FadeInSection>
     <div className="container">
       <div className="text-center my-20">
@@ -26,6 +27,7 @@ const Expereinces = () => {
         </ul>
     </div>
     </FadeInSection>
+    </main>
     </>
   );
 }
