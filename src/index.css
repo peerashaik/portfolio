@@ -723,7 +723,11 @@ ul.tools {
 
     &:hover i {
         color: var(--black);
-    }    
+    }
+
+    span {
+        display: none;
+    } 
 }
 
 @keyframes moveUp {
@@ -744,6 +748,10 @@ ul.tools {
         &:before {
             font-size: 24px;
         }
+    }
+
+    span {
+        display: none;
     }
 }
 

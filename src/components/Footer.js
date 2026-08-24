@@ -21,13 +21,13 @@ const Footer = (props) => {
 
     <ul className="nav socialIcons hide fixed bottom-40 z-50">
       <li className="my-3">
-        <a href="https://www.linkedin.com/in/peerashaik/" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/peerashaik/" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i><span>LinkedIn</span></a>
       </li>
       <li className="my-3">
-        <a href="https://www.facebook.com/peera.shaik" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/peera.shaik" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i><span>Facebook</span></a>
       </li>
       <li className="my-3">
-        <a href="https://www.instagram.com/peerashaik786" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
+        <a href="https://www.instagram.com/peerashaik786" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i><span>Instegram</span></a>
       </li>
     </ul>
 
@@ -35,7 +35,7 @@ const Footer = (props) => {
         Copyright © <span className="date"></span> PeeraShaik. Made with React.
     </div>
     
-    <NavLink to="#" className="backtoTop hide fixed right-4 md:right-5"><i className="bi bi-arrow-up-circle-fill"></i></NavLink>
+    <NavLink to="#" className="backtoTop hide fixed right-4 md:right-5"><i className="bi bi-arrow-up-circle-fill"></i><span>Back to Top</span></NavLink>
     </>
   );
 }
