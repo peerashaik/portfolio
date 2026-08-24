@@ -20,13 +20,13 @@ const Footer = (props) => {
     </div>
 
     <ul className="nav socialIcons hide fixed bottom-40 z-50">
-      <li className="my-2">
+      <li className="my-3">
         <a href="https://www.linkedin.com/in/peerashaik/" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a>
       </li>
-      <li className="my-2">
+      <li className="my-3">
         <a href="https://www.facebook.com/peera.shaik" target="_blank" rel="noreferrer"><i className="bi bi-facebook"></i></a>
       </li>
-      <li className="my-2">
+      <li className="my-3">
         <a href="https://www.instagram.com/peerashaik786" target="_blank" rel="noreferrer"><i className="bi bi-instagram"></i></a>
       </li>
     </ul>

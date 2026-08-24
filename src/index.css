@@ -737,6 +737,12 @@ ul.tools {
     display: none;
     right: 20px;
     animation: moveRight .4s linear;
+
+    .bi {
+        &:before {
+            font-size: 24px;
+        }
+    }
 }
 
 @keyframes moveRight {

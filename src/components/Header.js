@@ -9,7 +9,7 @@ function Header() {
         <a href="" rel="noreferrer">
             <img src={logoUrl} alt="Logo" />
         </a>
-      <p className="small m-0 mt-4">VISAULIZATION <span className="m-3 mt-0">|</span> DESIGN <span className="m-3 mt-0">|</span> DEVELOPMENT <span className="m-3 mt-0">|</span> INTERACTION</p>
+      <p className="small m-0 mt-4">VISUALIZATION <span className="m-3 mt-0">|</span> DESIGN <span className="m-3 mt-0">|</span> DEVELOPMENT <span className="m-3 mt-0">|</span> INTERACTION</p>
     </div>
 
     <div className="navToggle">
