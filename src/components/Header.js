@@ -13,10 +13,7 @@ function Header() {
     </div>
 
     <div className="navToggle">
-      <label for="hamburger-toggle">
-        <span class="sr-only">Toggle Menu</span>
-      </label>
-      <input id="hamburger-toggle" type="checkbox" />
+      <input aria-label="hamburger" type="checkbox" />
       <span></span>
       <span></span>
       <span></span>
